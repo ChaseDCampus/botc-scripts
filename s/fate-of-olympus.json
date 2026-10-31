@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "Fate of Olympus",
     "author": "chäse",
-    "logo": "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/_logo.png",
+    "logo": "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/_logo.png?v=1793464608",
     "almanac": "https://www.bloodstar.xyz/p/chase2013/Fate_of_Olympus/almanac.html",
     "hideTitle": true,
     "firstNight": [
@@ -52,8 +52,8 @@
     "team": "townsfolk",
     "ability": "On your 1st night, choose a player (not yourself): they learn who you are. If either of you dies, the other dies too.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "Love is the one bond even the gods cannot cut.",
     "firstNight": 9,
@@ -72,8 +72,8 @@
     "team": "townsfolk",
     "ability": "You start knowing 1 in-play evil character. When that player dies, that night you learn another in-play evil character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hestiafateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hestiafateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hestiafateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hestiafateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "The hearth sees every face that gathers around it.",
     "firstNight": 10,
@@ -92,8 +92,8 @@
     "team": "townsfolk",
     "ability": "You start knowing if an evil player is within 2 seats of you. All Travellers share your alignment, even if you are dead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hermesfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hermesfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hermesfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hermesfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Messenger, trickster, and patron of everyone on the road.",
     "firstNight": 11,
@@ -110,8 +110,8 @@
     "team": "townsfolk",
     "ability": "Each night*, you learn how many players' abilities malfunctioned since dawn.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/dionysusfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/dionysusfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/dionysusfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/dionysusfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Wine reveals what sobriety hides — mostly who has had too much.",
     "firstNight": 0,
@@ -133,8 +133,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose an alive player (not yourself): you learn if they woke tonight due to an ability.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/artemisfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/artemisfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/artemisfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/artemisfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "The huntress hears every footstep in the dark forest.",
     "firstNight": 0,
@@ -151,8 +151,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose 2 players (not yourself). If you choose an evil player, you lose this ability. Once you have chosen every other living good player, good wins.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "She counts every seed she has sown — and every one that rotted.",
     "firstNight": 13,
@@ -179,8 +179,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn how many evil players are alive. [+0 to +2 Hephaestus. If there is more than one, one of them registers as evil]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Forged in fire, flawed by design — one of his works is always cracked.",
     "firstNight": 14,
@@ -205,8 +205,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose 2 players: if a Minion or Demon chose either of them tonight, you learn one of their alignments.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Queen of the gods. She notices everyone who sneaks around the palace.",
     "firstNight": 12,
@@ -226,8 +226,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose 2 players: one of them gets true information tonight, if they get any.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "His oracle has never lied, only been misread.",
     "firstNight": 7,
@@ -246,8 +246,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player (not yourself): if they would die tonight, a player of the Storyteller's choice might die instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/poseidonfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/poseidonfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/poseidonfateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/poseidonfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Ask him for a calm sea and he may just send the wave somewhere else.",
     "firstNight": 0,
@@ -266,8 +266,8 @@
     "team": "townsfolk",
     "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die. If they are good, they become a Prometheus.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/zeusfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/zeusfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/zeusfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/zeusfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Zeus’s power is mighty, though his judgments can have unintended consequences.",
     "firstNight": 0,
@@ -286,8 +286,8 @@
     "team": "townsfolk",
     "ability": "Once per game, during the day, publicly challenge another player to a duel of rock-paper-scissors. The loser is executed and turns evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aresfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aresfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aresfateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aresfateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "War doesn't care who is right — only who is left.",
     "firstNight": 0,
@@ -307,8 +307,8 @@
     "team": "townsfolk",
     "ability": "Once per game, during the day, make a public statement about another player's alignment. Tonight, you learn if it was true.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "Wisdom is knowing which accusations to make out loud.",
     "firstNight": 0,
@@ -329,8 +329,8 @@
     "team": "outsider",
     "ability": "Each day, you must vote exactly once, or tomorrow your vote counts as negative. Once per game, evil may publicly guess who you are: if correct, evil wins.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/atlasfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/atlasfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/atlasfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/atlasfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "He holds up the sky, and would really like someone else to take a turn.",
     "firstNight": 0,
@@ -350,8 +350,8 @@
     "team": "outsider",
     "ability": "Once per game, at night, open the box: every player's ability malfunctions until dusk. If you die before using this, the box opens that night.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/pandorafateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/pandorafateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/pandorafateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/pandorafateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Don't open it. Don't open it. Don't — she opened it.",
     "firstNight": 1,
@@ -371,8 +371,8 @@
     "team": "outsider",
     "ability": "If a good player nominates you, they immediately become a Prometheus.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "Fly too close and you'll get burned — or something stranger.",
     "firstNight": 0,
@@ -389,8 +389,8 @@
     "team": "outsider",
     "ability": "You do not know you are a Prometheus: you think you are a Townsfolk. You might register as an evil Minion or Demon, even if dead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/prometheusfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/prometheusfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/prometheusfateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/prometheusfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "He stole fire for mankind and has been paying for it ever since.",
     "firstNight": 0,
@@ -424,8 +424,8 @@
     "team": "minion",
     "ability": "You start knowing Ares & Aphrodite, and they learn a Phobos is in play. If both are alive when just 4 players live, evil wins, even if you are dead. [+Ares & Aphrodite]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/phobosfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/phobosfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/phobosfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/phobosfateofolympus_flip.png?v=1793464608"
     ],
     "flavor": "The child of love and war knows exactly how both of them end.",
     "firstNight": 4,
@@ -445,8 +445,8 @@
     "team": "minion",
     "ability": "Each night, choose 2 players: if one is a Prometheus, the other gains the Prometheus ability until dusk. [+1 Prometheus]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "One golden apple, three goddesses, and a war that lasted ten years.",
     "firstNight": 6,
@@ -465,8 +465,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: their ability doesn't work until dusk. They learn they met the Medusa's gaze.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/medusafateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/medusafateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/medusafateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/medusafateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "One look is all it takes.",
     "firstNight": 5,
@@ -485,8 +485,8 @@
     "team": "minion",
     "ability": "If an evil player died today, choose a player tonight: they die, even if for some reason they could not.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/nemesisfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/nemesisfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/nemesisfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/nemesisfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Every debt gets collected eventually.",
     "firstNight": 0,
@@ -506,8 +506,8 @@
     "team": "demon",
     "ability": "Each night, choose a player: the player you chose last night dies. Once per game, if you would die while 4 or more players live, your current choice dies instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/thanatosfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/thanatosfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/thanatosfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/thanatosfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Death is never late. He is simply a day behind.",
     "firstNight": 8,
@@ -528,8 +528,8 @@
     "team": "demon",
     "ability": "Each night*, choose 2 players: they die. If you kill the Zeus, they learn you are one of 3 players. [+Zeus]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/typhonfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/typhonfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/typhonfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/typhonfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Father of all monsters, and the only thing Zeus ever feared.",
     "firstNight": 0,
@@ -552,8 +552,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: you learn their character, then they die. Once per game, after learning, you may choose a different player to die instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus.png?v=1793464609",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "He devoured his own children rather than be replaced.",
     "firstNight": 0,
@@ -573,8 +573,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If you die while 5 or more players are alive, an alive Minion becomes the Hades.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hadesfateofolympus.png",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hadesfateofolympus_flip.png"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hadesfateofolympus.png?v=1793464608",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hadesfateofolympus_flip.png?v=1793464609"
     ],
     "flavor": "Every soul finds its way to him in the end.",
     "firstNight": 0,
