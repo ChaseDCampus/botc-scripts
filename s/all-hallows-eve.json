@@ -1,0 +1,494 @@
+[
+  {
+    "id": "_meta",
+    "name": "All Hallows' Eve",
+    "author": "chäse",
+    "logo": "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/_logo.png?v=1793466660",
+    "firstNight": [
+      "dusk",
+      "candybowlallhallowseve",
+      "minioninfo",
+      "demoninfo",
+      "badappleallhallowseve",
+      "costumemakerallhallowseve",
+      "torchbearerallhallowseve",
+      "ouijaboardallhallowseve",
+      "trickortreaterallhallowseve",
+      "partyhostallhallowseve",
+      "cornmazeallhallowseve",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "candybowlallhallowseve",
+      "badappleallhallowseve",
+      "costumemakerallhallowseve",
+      "torchbearerallhallowseve",
+      "graverobberallhallowseve",
+      "werewolfallhallowseve",
+      "monsterhunterallhallowseve",
+      "headlesshorsemanallhallowseve",
+      "vampireallhallowseve",
+      "monsterallhallowseve",
+      "skeletonallhallowseve",
+      "ouijaboardallhallowseve",
+      "trickortreaterallhallowseve",
+      "cornmazeallhallowseve",
+      "batallhallowseve",
+      "doorbellallhallowseve",
+      "dawn"
+    ]
+  },
+  {
+    "id": "trickortreaterallhallowseve",
+    "name": "Trick-or-Treater",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player you haven't chosen before: you learn \"treat\" if they are a Townsfolk, or \"trick\" if not.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve_flip.png?v=1793466666"
+    ],
+    "flavor": "Third house on the left gives out full-size bars. Fourth house gives out pennies. Never go to the fourth house.",
+    "firstNight": 8,
+    "otherNight": 13,
+    "firstNightReminder": "The Trick-or-Treater chooses a player not yet marked CHOSEN: mark them CHOSEN. Nod for treat (a Townsfolk), shake your head for trick (anything else).",
+    "otherNightReminder": "The Trick-or-Treater chooses a player not yet marked CHOSEN: mark them CHOSEN. Nod for treat (a Townsfolk), shake your head for trick (anything else).",
+    "reminders": [
+      "Chosen"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "jackolanternallhallowseve",
+    "name": "Jack-o'-Lantern",
+    "team": "townsfolk",
+    "ability": "If the Demon attacks one of your living neighbours, you die instead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Carved to keep the spirits off the porch. Nobody said it would survive the night.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "scarecrowallhallowseve",
+    "name": "Scarecrow",
+    "team": "townsfolk",
+    "ability": "Minions can't choose you or your living neighbours at night.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve_flip.png?v=1793466666"
+    ],
+    "flavor": "It has never once caught a crow. It has, however, frightened several Minions.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "monsterallhallowseve",
+    "name": "Monster",
+    "team": "townsfolk",
+    "ability": "If a good player is executed, you may become their character.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Stitched together from whatever the village threw away. Today, that was a Doorbell.",
+    "firstNight": 0,
+    "otherNight": 10,
+    "firstNightReminder": "",
+    "otherNightReminder": "If a good player was executed today, wake the Monster: they may become that character. If they nod, swap the Monster token for that character and show it to them.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "ouijaboardallhallowseve",
+    "name": "Ouija Board",
+    "team": "townsfolk",
+    "ability": "Each night, choose a dead player: they point at a living player. You learn if that player is evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Nobody is moving it. Everybody is moving it.",
+    "firstNight": 7,
+    "otherNight": 12,
+    "firstNightReminder": "The Ouija Board points at a dead player. Wake that dead player: they point at a living player. Put them to sleep. Tell the Ouija Board if that player is evil (thumbs down) or not (thumbs up).",
+    "otherNightReminder": "The Ouija Board points at a dead player. Wake that dead player: they point at a living player. Put them to sleep. Tell the Ouija Board if that player is evil (thumbs down) or not (thumbs up).",
+    "reminders": [
+      "Spirit"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "batallhallowseve",
+    "name": "Bat",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many of your living neighbours woke tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "It can't see a thing. It heard you, though.",
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "Show the Bat how many of their living neighbours woke tonight (0, 1 or 2).",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "partyhostallhallowseve",
+    "name": "Party Host",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 players, exactly 1 of whom is evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Three guests arrived together. One of them didn't bring anything.",
+    "firstNight": 9,
+    "otherNight": 0,
+    "firstNightReminder": "Point to 3 players, exactly 1 of whom is evil. Mark them GUEST.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Guest",
+      "Guest",
+      "Guest"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "monsterhunterallhallowseve",
+    "name": "Monster Hunter",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a player: if they are evil, they die. If they are good, you die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Silver, garlic, holy water, a wooden stake and a strong opinion about which neighbour it is.",
+    "firstNight": 0,
+    "otherNight": 7,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Monster Hunter may choose a player. If evil, they die; if good, the Monster Hunter dies. Mark NO ABILITY.",
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "skeletonallhallowseve",
+    "name": "Skeleton",
+    "team": "townsfolk",
+    "ability": "The 1st night after you die, choose 3 players: you learn if one of them is the Demon.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Dying was the easy part. Climbing back out took all night.",
+    "firstNight": 0,
+    "otherNight": 11,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Skeleton died since last night, wake them: they choose 3 players. Nod if one of them is the Demon. Mark RISEN.",
+    "reminders": [
+      "Risen"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "candybowlallhallowseve",
+    "name": "Candy Bowl",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): they are sober and healthy until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Take one. Okay, take two. Nobody is checking.",
+    "firstNight": 1,
+    "otherNight": 1,
+    "firstNightReminder": "The Candy Bowl chooses a player: mark them TREAT.",
+    "otherNightReminder": "The Candy Bowl chooses a player: mark them TREAT.",
+    "reminders": [
+      "Treat"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "blackcatallhallowseve",
+    "name": "Black Cat",
+    "team": "townsfolk",
+    "ability": "If an evil player nominates you, they are poisoned until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Crossed your path, did it? That was a choice you made.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Bad luck"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "doorbellallhallowseve",
+    "name": "Doorbell",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many players chose you tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Ding dong. Ding dong. Ding dong. Nobody there.",
+    "firstNight": 0,
+    "otherNight": 16,
+    "firstNightReminder": "",
+    "otherNightReminder": "Show the Doorbell how many players chose them tonight.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "cornmazeallhallowseve",
+    "name": "Corn Maze",
+    "team": "townsfolk",
+    "ability": "Each night, you learn whether the Demon is closer to you clockwise, closer anticlockwise, or equally close.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Keep your left hand on the wall. Or was it the right?",
+    "firstNight": 10,
+    "otherNight": 14,
+    "firstNightReminder": "Point clockwise or anticlockwise toward the nearer Demon, or point straight up if they are equally close.",
+    "otherNightReminder": "Point clockwise or anticlockwise toward the nearer Demon, or point straight up if they are equally close.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "hauntedhouseallhallowseve",
+    "name": "Haunted House",
+    "team": "outsider",
+    "ability": "If a Townsfolk chooses you at night, they are drunk until dusk.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "The previous owners left in a hurry. They left the curtains, the piano and the screaming.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "werewolfallhallowseve",
+    "name": "Werewolf",
+    "team": "outsider",
+    "ability": "On night 3, you turn evil. You learn who the Demon is, and they learn who you are.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve_flip.png?v=1793466666"
+    ],
+    "flavor": "Perfectly lovely for two nights a month. Please plan accordingly.",
+    "firstNight": 0,
+    "otherNight": 6,
+    "firstNightReminder": "",
+    "otherNightReminder": "If it is night 3, wake the Werewolf: show the YOU ARE token and thumbs down, then point to the Demon. Wake the Demon and point to the Werewolf. Mark EVIL.",
+    "reminders": [
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "rottenpumpkinallhallowseve",
+    "name": "Rotten Pumpkin",
+    "team": "outsider",
+    "ability": "If you die, a living good neighbour of yours is poisoned for the rest of the game.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve_flip.png?v=1793466666"
+    ],
+    "flavor": "It was a fine pumpkin on the first of October.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "ghostallhallowseve",
+    "name": "Ghost",
+    "team": "outsider",
+    "ability": "You start the game dead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Just a sheet with eyeholes. Probably.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "costumemakerallhallowseve",
+    "name": "Costume Maker",
+    "team": "minion",
+    "ability": "Each night, choose a player: until dusk, they register as any character and alignment of your choice.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "One mask for the party. One mask for the morning after.",
+    "firstNight": 5,
+    "otherNight": 3,
+    "firstNightReminder": "The Costume Maker chooses a player and a character and alignment: mark them COSTUME.",
+    "otherNightReminder": "The Costume Maker chooses a player and a character and alignment: mark them COSTUME.",
+    "reminders": [
+      "Costume"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "badappleallhallowseve",
+    "name": "Bad Apple",
+    "team": "minion",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow. If they are a Townsfolk, you learn their character.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve.png?v=1793467614",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve_flip.png?v=1793467614"
+    ],
+    "flavor": "Looks like a treat. Always check your candy.",
+    "firstNight": 4,
+    "otherNight": 2,
+    "firstNightReminder": "The Bad Apple chooses a player: mark them POISONED. If they are a Townsfolk, show the Bad Apple their character token.",
+    "otherNightReminder": "The Bad Apple chooses a player: mark them POISONED. If they are a Townsfolk, show the Bad Apple their character token.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "graverobberallhallowseve",
+    "name": "Grave Robber",
+    "team": "minion",
+    "ability": "Each night*, choose a dead player: tonight, you have their ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "The dead don't need it. That's the whole argument.",
+    "firstNight": 0,
+    "otherNight": 5,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Grave Robber chooses a dead player: mark them STOLEN. The Grave Robber has that player's ability tonight.",
+    "reminders": [
+      "Stolen"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "torchbearerallhallowseve",
+    "name": "Torchbearer",
+    "team": "minion",
+    "ability": "Each night, choose a player: tomorrow, votes to execute them count twice.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "Every mob needs someone to light the first torch.",
+    "firstNight": 6,
+    "otherNight": 4,
+    "firstNightReminder": "The Torchbearer chooses a player: mark them TORCH.",
+    "otherNightReminder": "The Torchbearer chooses a player: mark them TORCH.",
+    "reminders": [
+      "Torch"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "headlesshorsemanallhallowseve",
+    "name": "Headless Horseman",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Each time you kill a Townsfolk, you take their head: you register as their character.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve.png?v=1793466666",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve_flip.png?v=1793466665"
+    ],
+    "flavor": "He's been looking for a head that fits for two hundred years.",
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Headless Horseman chooses a player: they die. If they were a Townsfolk, mark them HEAD: the Headless Horseman now registers as that character.",
+    "reminders": [
+      "Dead",
+      "Head"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "vampireallhallowseve",
+    "name": "Vampire",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Once per game, they turn evil instead, and learn who you are.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve.png?v=1793466665",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve_flip.png?v=1793466666"
+    ],
+    "flavor": "Invite him in once. That's all it takes.",
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Vampire chooses a player and may choose to bite. Bite: they turn evil instead; wake them, show thumbs down and point to the Vampire; mark NO BITE. Otherwise they die.",
+    "reminders": [
+      "Dead",
+      "No bite"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  }
+]
