@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clocktower Script</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter+Tight:wght@500;600;700&display=swap">
+<style>
+:root { --bg:#f3ecdd; --panel:#fbf7ee; --ink:#261f17; --muted:#75684f; --line:#ddd0b4; --paper:#ead9b2; --accent:#2346c4;
+  --townsfolk:#1f5fbf; --outsider:#138a8a; --minion:#c4661c; --demon:#b3202e; --traveller:#6c3fa8; --fabled:#a88412; color-scheme: light }
+@media (prefers-color-scheme: dark) { :root { --bg:#15120d; --panel:#1e1a13; --ink:#efe6d2; --muted:#a8997b; --line:#3b3325; --accent:#8fa6ff;
+  --townsfolk:#7fb0ff; --outsider:#5fd0cc; --minion:#ffad66; --demon:#ff7a85; --traveller:#c3a2f2; --fabled:#e6c75a; color-scheme: dark } }
+* { box-sizing: border-box }
+body { margin:0; background:var(--bg); color:var(--ink); font:400 1.08rem/1.5 'Crimson Pro', Georgia, serif }
+.wrap { max-width: 64rem; margin:0 auto; padding: 2rem max(16px, env(safe-area-inset-left,0px)) 4rem max(16px, env(safe-area-inset-right,0px)); display:grid; gap:2rem }
+h1, h2, h3 { font-family:'Della Respira', Georgia, serif; font-weight:400; margin:0; line-height:1.15 }
+p { margin:0 }
+header { display:grid; gap:.8rem; justify-items:start }
+.logo { max-width:min(26rem,100%); max-height:14rem }
+h1 { font-size: clamp(2.2rem, 6vw, 3.4rem) }
+.by { color:var(--muted) }
+.btns { display:flex; flex-wrap:wrap; gap:.5rem }
+.btn { font:600 .85rem 'Inter Tight', Arial, sans-serif; padding:.55rem .9rem; border-radius:.5rem; border:1px solid var(--accent); background:var(--accent); color:#fff; text-decoration:none; cursor:pointer }
+.btn.ghost { background:transparent; color:var(--ink); border-color:var(--line) }
+.howto { font-size:1rem; color:var(--muted); max-width:44rem }
+.howto code { font-size:.85em; background:var(--panel); padding:.1em .35em; border-radius:4px; word-break:break-all }
+.team h2 { font-size:1.6rem; color:var(--tc); margin-bottom:.6rem }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(18rem,1fr)); gap:.7rem }
+.c { display:grid; grid-template-columns:4.6rem minmax(0,1fr); gap:.8rem; align-items:start; padding:.7rem; background:var(--panel); border:1px solid var(--line); border-radius:.8rem }
+.tok { width:4.6rem; height:4.6rem; border-radius:50%; background:var(--paper); display:grid; place-items:center; overflow:hidden; cursor:pointer; border:0; padding:0 }
+.tok img { width:86%; height:86%; object-fit:contain }
+.c h3 { font-size:1.2rem } .c p { font-size:1rem } .c .fl { font-style:italic; color:var(--muted); font-size:.95rem; margin-top:.25rem }
+[data-team="townsfolk"]{--tc:var(--townsfolk)}[data-team="outsider"]{--tc:var(--outsider)}[data-team="minion"]{--tc:var(--minion)}[data-team="demon"]{--tc:var(--demon)}[data-team="traveller"]{--tc:var(--traveller)}[data-team="fabled"]{--tc:var(--fabled)}
+.nights { display:grid; grid-template-columns:repeat(auto-fit,minmax(18rem,1fr)); gap:1.5rem }
+.nights ol { margin:.5rem 0 0; padding-left:1.4rem; display:grid; gap:.3rem; font-size:1rem }
+.rules li { font-size:1rem }
+.err { color:var(--demon) }
+footer { font:500 .8rem 'Inter Tight', Arial, sans-serif; color:var(--muted) }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p>Loading script…</p></div>
+<script>
+(async function () {
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const app = document.getElementById("app");
+  const slug = (new URLSearchParams(location.search).get("s") || "").replace(/[^a-z0-9-]/g, "");
+  const url = new URL(`s/${slug}.json`, location.href).href;
+  let data;
+  try { const r = await fetch(url); if (!r.ok) throw 0; data = await r.json(); }
+  catch { app.innerHTML = `<h1>Script not found</h1><p class="err">This script isn't published (or the link is wrong).</p><p><a href="./">See all scripts</a></p>`; return; }
+  const meta = data[0] && data[0].id === "_meta" ? data[0] : {};
+  const chars = data.filter((c) => c && typeof c === "object" && c.id !== "_meta");
+  const officials = data.filter((c) => typeof c === "string");
+  document.title = meta.name || "Clocktower Script";
+  const imgs = (c) => (!c.image ? [] : Array.isArray(c.image) ? c.image : [c.image]);
+  const TEAMS = [["townsfolk", "Townsfolk"], ["outsider", "Outsiders"], ["minion", "Minions"], ["demon", "Demons"], ["traveller", "Travellers"], ["fabled", "Fabled"]];
+  const name = (id) => ({ dusk: "Dusk", minioninfo: "Minion info", demoninfo: "Demon info", dawn: "Dawn" }[id] || (chars.find((c) => c.id === id) || {}).name || id);
+  const order = (k) => (Array.isArray(meta[k]) && meta[k].length ? meta[k] : chars.filter((c) => c[k] > 0).sort((a, b) => a[k] - b[k]).map((c) => c.id));
+  let h = `<header>${meta.logo ? `<img class="logo" src="${esc(meta.logo)}" alt="${esc(meta.name)}">` : ""}${meta.hideTitle && meta.logo ? "" : `<h1>${esc(meta.name || "Untitled script")}</h1>`}
+    ${meta.author ? `<p class="by">by ${esc(meta.author)}</p>` : ""}
+    <div class="btns"><a class="btn" href="${esc(url)}" download="${esc((meta.name || "script").replace(/[^A-Za-z0-9 _-]/g, ""))}.json">Download script JSON</a><button class="btn ghost" id="copy" type="button">Copy JSON link</button>${meta.almanac ? `<a class="btn ghost" href="${esc(meta.almanac)}" target="_blank" rel="noopener">Almanac</a>` : ""}</div>
+    <p class="howto">To play it, load this script as a custom script in the official Blood on the Clocktower app, either from the downloaded file or from this link: <code>${esc(url)}</code>. Tap a token to see its other-alignment art.</p></header>`;
+  for (const [t, label] of TEAMS) {
+    const list = chars.filter((c) => c.team === t); if (!list.length) continue;
+    h += `<section class="team" data-team="${t}"><h2>${label}</h2><div class="grid">` + list.map((c, i) => {
+      const im = imgs(c);
+      return `<div class="c"><button class="tok" type="button" data-imgs='${esc(JSON.stringify(im))}' aria-label="${esc(c.name)} art">${im[0] ? `<img src="${esc(im[0])}" alt="" loading="lazy">` : ""}</button>
+        <div><h3>${esc(c.name)}</h3><p>${esc(c.ability)}</p>${c.flavor ? `<p class="fl">${esc(c.flavor)}</p>` : ""}</div></div>`;
+    }).join("") + `</div></section>`;
+  }
+  if (officials.length) h += `<section><h2>Official characters</h2><p>${officials.map(esc).join(", ")}</p></section>`;
+  const fn = order("firstNight"), on = order("otherNight");
+  if (fn.length || on.length) h += `<section class="nights"><div><h2>First night</h2><ol>${fn.map((x) => `<li>${esc(name(x))}</li>`).join("")}</ol></div><div><h2>Other nights</h2><ol>${on.map((x) => `<li>${esc(name(x))}</li>`).join("")}</ol></div></section>`;
+  if ((meta.bootlegger || []).length) h += `<section class="rules"><h2>Homebrew rules</h2><ul>${meta.bootlegger.map((r) => `<li>${esc(r)}</li>`).join("")}</ul></section>`;
+  h += `<footer>Published with Script Studio · <a href="./">All scripts</a> · Blood on the Clocktower is a trademark of The Pandemonium Institute.</footer>`;
+  app.innerHTML = h;
+  document.getElementById("copy").onclick = async (e) => { try { await navigator.clipboard.writeText(url); e.target.textContent = "Copied"; } catch { prompt("Copy this link", url); } };
+  document.querySelectorAll(".tok").forEach((b) => b.onclick = () => {
+    const list = JSON.parse(b.dataset.imgs || "[]"); if (list.length < 2) return;
+    b._i = ((b._i || 0) + 1) % list.length; b.querySelector("img").src = list[b._i];
+  });
+})();
+</script>
+</body>
+</html>
