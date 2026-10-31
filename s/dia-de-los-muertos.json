@@ -1,0 +1,493 @@
+[
+  {
+    "id": "_meta",
+    "name": "Día de los Muertos",
+    "author": "chäse",
+    "logo": "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/_logo.png?v=1793469142",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "frightdiadelosmuertos",
+      "willowispdiadelosmuertos",
+      "darkriderdiadelosmuertos",
+      "shapeshifterdiadelosmuertos",
+      "woodcarverdiadelosmuertos",
+      "papercutterdiadelosmuertos",
+      "photographdiadelosmuertos",
+      "abueladiadelosmuertos",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "altardiadelosmuertos",
+      "frightdiadelosmuertos",
+      "willowispdiadelosmuertos",
+      "darkriderdiadelosmuertos",
+      "shapeshifterdiadelosmuertos",
+      "guidedogdiadelosmuertos",
+      "candlediadelosmuertos",
+      "gatekeeperdiadelosmuertos",
+      "ossuarydiadelosmuertos",
+      "restlesssouldiadelosmuertos",
+      "soulthiefdiadelosmuertos",
+      "woodcarverdiadelosmuertos",
+      "poetdiadelosmuertos",
+      "photographdiadelosmuertos",
+      "monarchdiadelosmuertos",
+      "bakerdiadelosmuertos",
+      "abueladiadelosmuertos",
+      "dawn"
+    ]
+  },
+  {
+    "id": "altardiadelosmuertos",
+    "name": "Altar",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a dead player: tonight, they have their ability as if they were alive.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The ofrenda: their photo, their favourite bread, a glass of what they liked to drink. Come home for one night.",
+    "firstNight": 0,
+    "otherNight": 1,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Altar chooses a dead player: mark them REMEMBERED. Tonight that player has their ability as if alive; wake them at their usual time.",
+    "reminders": [
+      "Remembered"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "candlediadelosmuertos",
+    "name": "Candle",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a living player: if they die tonight, they keep their ability while dead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos_flip.png?v=1793469145"
+    ],
+    "flavor": "A candle in the window, so they can find their way back.",
+    "firstNight": 0,
+    "otherNight": 7,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Candle chooses a living player: mark them CANDLE. If they die tonight, mark them LIT: they keep their ability while dead.",
+    "reminders": [
+      "Candle",
+      "Lit"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "marigolddiadelosmuertos",
+    "name": "Marigold",
+    "team": "townsfolk",
+    "ability": "While you are alive, dead players don't use up their vote when they vote.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Cempasúchil. Follow the orange petals from the graveyard to the door.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "guidedogdiadelosmuertos",
+    "name": "Guide Dog",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player (not yourself): if the Demon attacks them tonight, you die instead, and learn who the Demon is.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The Xoloitzcuintli walks you all the way to Mictlán. A good one bites on the way.",
+    "firstNight": 0,
+    "otherNight": 6,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Guide Dog chooses a player: mark them GUARDED. If the Demon attacks them, the Guide Dog dies instead: wake them and point to the Demon.",
+    "reminders": [
+      "Guarded",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "monarchdiadelosmuertos",
+    "name": "Monarch",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "La monarca arrives every year at the start of November. Count them carefully.",
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "Show the Monarch how many dead players are evil.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "incensediadelosmuertos",
+    "name": "Incense",
+    "team": "townsfolk",
+    "ability": "Your living neighbours can't be drunk or poisoned.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Copal smoke keeps the bad air away from the altar.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "poetdiadelosmuertos",
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Each day, you may publicly recite a calavera (a short, funny poem) about a living player. Tonight, you learn if they are evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Here lies poor Beto, who swore he was good. The Demon laughed louder than anyone should.",
+    "firstNight": 0,
+    "otherNight": 13,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Poet recited a calavera today, mark that player VERSE and tell the Poet if they are evil (thumbs down) or not (thumbs up).",
+    "reminders": [
+      "Verse"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "papercutterdiadelosmuertos",
+    "name": "Paper Cutter",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 good characters that are not in play.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos.png?v=1793469145",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Papel picado, cut so finely you can see right through it.",
+    "firstNight": 8,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Paper Cutter 3 good character tokens that are not in play.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "photographdiadelosmuertos",
+    "name": "Photograph",
+    "team": "townsfolk",
+    "ability": "On your 1st night, choose a player: you learn their character. Each night*, you learn if their character or alignment has changed.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The picture never changes. The person might.",
+    "firstNight": 9,
+    "otherNight": 14,
+    "firstNightReminder": "The Photograph chooses a player: mark them PORTRAIT and show their character token.",
+    "otherNightReminder": "Nod if the PORTRAIT player's character or alignment has changed since the Photograph chose them, shake your head if not.",
+    "reminders": [
+      "Portrait"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "woodcarverdiadelosmuertos",
+    "name": "Woodcarver",
+    "team": "townsfolk",
+    "ability": "Each night, you have the ability of a good character not in play (the Storyteller's choice). You learn which.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos.png?v=1793469145",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Tonight's alebrije is part jaguar, part eagle, part whatever the carver dreamed last night.",
+    "firstNight": 7,
+    "otherNight": 12,
+    "firstNightReminder": "Choose a good character not in play: show its token to the Woodcarver. They have that ability tonight.",
+    "otherNightReminder": "Choose a good character not in play: show its token to the Woodcarver. They have that ability tonight.",
+    "reminders": [
+      "Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "abueladiadelosmuertos",
+    "name": "Abuela",
+    "team": "townsfolk",
+    "ability": "You start knowing a good player and their character. If they die, you learn an evil player that night.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "She knows every grandchild by name. She has opinions about the new boyfriend.",
+    "firstNight": 10,
+    "otherNight": 17,
+    "firstNightReminder": "Point to a good player and show their character token. Mark them FAMILY.",
+    "otherNightReminder": "If the FAMILY player died since last night, point to an evil player. Remove FAMILY.",
+    "reminders": [
+      "Family"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "bakerdiadelosmuertos",
+    "name": "Baker",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a dead player: you learn their character, and they learn yours.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Pan de muerto for the departed. They brought the coffee.",
+    "firstNight": 0,
+    "otherNight": 16,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Baker chooses a dead player: show the Baker their character. Wake that player and show them the Baker token, pointing to the Baker.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sugarskulldiadelosmuertos",
+    "name": "Sugar Skull",
+    "team": "townsfolk",
+    "ability": "If you are dead, you may still nominate.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Your name in icing on the forehead. Dead? Yes. Done? Absolutely not.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "frightdiadelosmuertos",
+    "name": "Fright",
+    "team": "outsider",
+    "ability": "Each night, you must choose a living player: they are drunk until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Susto: a fright so bad your soul jumped out. It has to land on somebody.",
+    "firstNight": 3,
+    "otherNight": 2,
+    "firstNightReminder": "The Fright chooses a living player: mark them DRUNK.",
+    "otherNightReminder": "The Fright chooses a living player: mark them DRUNK.",
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "gluttondiadelosmuertos",
+    "name": "Glutton",
+    "team": "outsider",
+    "ability": "While you are alive, dead players' abilities don't work.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The tamales were for the ancestors. Were.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "mournerdiadelosmuertos",
+    "name": "Mourner",
+    "team": "outsider",
+    "ability": "If you are executed, the Demon may kill an extra player tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The plañidera is paid to weep at funerals. Tonight she weeps at her own.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Extra kill"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "restlesssouldiadelosmuertos",
+    "name": "Restless Soul",
+    "team": "outsider",
+    "ability": "If you die, you return to life at dawn, but you are evil. You learn who the Demon is.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "An alma en pena. Some souls go home on the second of November. This one came back wrong.",
+    "firstNight": 0,
+    "otherNight": 10,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Restless Soul died since last night: wake them, show thumbs down and point to the Demon. At dawn they are alive again. Mark EVIL.",
+    "reminders": [
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "shapeshifterdiadelosmuertos",
+    "name": "Shapeshifter",
+    "team": "minion",
+    "ability": "Each night, choose a player: until dusk, you register as their character and alignment.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "The nahual: by day a neighbour, by night a jaguar wearing the neighbour's face.",
+    "firstNight": 6,
+    "otherNight": 5,
+    "firstNightReminder": "The Shapeshifter chooses a player: mark them SHAPE. The Shapeshifter registers as that character and alignment until dusk.",
+    "otherNightReminder": "The Shapeshifter chooses a player: mark them SHAPE. The Shapeshifter registers as that character and alignment until dusk.",
+    "reminders": [
+      "Shape"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "willowispdiadelosmuertos",
+    "name": "Will-o'-Wisp",
+    "team": "minion",
+    "ability": "Each night, choose a living player: until dusk, they are drunk and register as dead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Follow the little light into the trees. In the morning you'll still be standing there; you just won't be home.",
+    "firstNight": 4,
+    "otherNight": 3,
+    "firstNightReminder": "The Will-o'-Wisp chooses a living player: mark them LOST. They are drunk and register as dead until dusk.",
+    "otherNightReminder": "The Will-o'-Wisp chooses a living player: mark them LOST. They are drunk and register as dead until dusk.",
+    "reminders": [
+      "Lost"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "darkriderdiadelosmuertos",
+    "name": "Dark Rider",
+    "team": "minion",
+    "ability": "Each night, choose a player: they are poisoned until dusk tomorrow. If they are dead, they also lose their vote.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "El Charro Negro offers you a ride home. Do not get on the horse.",
+    "firstNight": 5,
+    "otherNight": 4,
+    "firstNightReminder": "The Dark Rider chooses a player: mark them POISONED.",
+    "otherNightReminder": "The Dark Rider chooses a player: mark them POISONED. If they are dead, remove their vote token.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "soulthiefdiadelosmuertos",
+    "name": "Soul Thief",
+    "team": "minion",
+    "ability": "Each night*, choose a dead player: you learn their character. If the Demon dies, you become the Demon.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "He doesn't steal the candles or the bread. He steals who they were.",
+    "firstNight": 0,
+    "otherNight": 11,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Soul Thief chooses a dead player: show their character token.",
+    "reminders": [
+      "Is the Demon"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "gatekeeperdiadelosmuertos",
+    "name": "Gatekeeper",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Players you kill lose their vote, and can't regain their ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "He guards the gate of Mictlán. Every soul passes it eventually. He just prefers sooner.",
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Gatekeeper chooses a player: they die. Mark them CLAIMED: remove their vote token; they cannot be REMEMBERED or LIT.",
+    "reminders": [
+      "Claimed",
+      "Claimed"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "ossuarydiadelosmuertos",
+    "name": "Ossuary",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If a good player was executed today, choose 2 players instead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos.png?v=1793469146",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos_flip.png?v=1793469146"
+    ],
+    "flavor": "Every bone in here has a name. Every mistake the living make adds another.",
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Ossuary chooses a player: they die. If a good player was executed today, they choose 2 players instead.",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  }
+]
