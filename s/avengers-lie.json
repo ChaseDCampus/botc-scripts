@@ -85,7 +85,7 @@
     "id": "spiderman_avengers_lie",
     "name": "Spider-Man",
     "team": "townsfolk",
-    "ability": "Each night, you learn if an evil player sits within 2 seats of you.",
+    "ability": "Each night, you learn if an evil player sits within 2 seats of you. [+0 to +2 Spider-Man]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spiderman_avengers_lie.png?v=1793575451",
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spiderman_avengers_lie_flip.png?v=1793575451"
@@ -97,7 +97,13 @@
     "otherNightReminder": "Nod if an evil player sits within 2 seats of Spider-Man, shake your head if not.",
     "reminders": [],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
   },
   {
     "id": "thor_avengers_lie",
@@ -417,7 +423,13 @@
       "Uploaded"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "venom_avengers_lie",
@@ -466,7 +478,7 @@
     "id": "thanos_avengers_lie",
     "name": "Thanos",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Once per game, instead, half of all living players die, chosen at random. You might be one of them.",
+    "ability": "Each night*, choose a player: they die. Once per game, instead, half of all living players die, chosen at random. You might be one of them. [-1 Outsider]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanos_avengers_lie.png?v=1793575450",
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanos_avengers_lie_flip.png?v=1793575450"
@@ -481,13 +493,13 @@
       "Snapped"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true
   },
   {
     "id": "kangtheconqueror_avengers_lie",
     "name": "Kang the Conqueror",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If you would die, a living Minion dies instead.",
+    "ability": "Each night*, choose a player: they die. If you would die, a living Minion dies instead. [+1 Minion]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueror_avengers_lie.png?v=1793575451",
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueror_avengers_lie_flip.png?v=1793575450"
@@ -501,7 +513,7 @@
       "Dead"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true
   },
   {
     "id": "galactus_avengers_lie",
@@ -528,7 +540,7 @@
     "id": "doctordoom_avengers_lie",
     "name": "Doctor Doom",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. On your first night, choose a good player: for the rest of the game, they register as the Demon, and you register as good.",
+    "ability": "Each night*, choose a player: they die. On your first night, choose a good player: for the rest of the game, they register as the Demon, and you register as good. [+1 Outsider]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoom_avengers_lie.png?v=1793575450",
       "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoom_avengers_lie_flip.png?v=1793575451"
@@ -541,6 +553,23 @@
     "reminders": [
       "Doombot",
       "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "timeheist_avengers_lie",
+    "name": "Time Heist",
+    "team": "fabled",
+    "ability": "Once per game, at dawn, the living players may vote: with a majority, one player who died last night returns to life.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/timeheist_avengers_lie.png?v=1793576682",
+    "flavor": "One shot, one trip back, and no second chances if the plan goes wrong.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Used"
     ],
     "remindersGlobal": [],
     "setup": false
