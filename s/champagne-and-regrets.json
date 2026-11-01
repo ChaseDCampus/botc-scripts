@@ -1,0 +1,497 @@
+[
+  {
+    "id": "_meta",
+    "name": "Champagne and Regrets",
+    "author": "chäse",
+    "logo": "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/_logo.png?v=1793572162",
+    "firstNight": [
+      "dusk",
+      "hourglassnewyears",
+      "minioninfo",
+      "demoninfo",
+      "bartendernewyears",
+      "champagnetowernewyears",
+      "cufflinksnewyears",
+      "guestlistnewyears",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "bartendernewyears",
+      "karaokemachinenewyears",
+      "coathangernewyears",
+      "lipsticknewyears",
+      "brokenbottlenewyears",
+      "firecrackernewyears",
+      "pottedfernnewyears",
+      "bartabnewyears",
+      "discoballnewyears",
+      "crackedphonenewyears",
+      "cufflinksnewyears",
+      "champagnetowernewyears",
+      "sodasiphonnewyears",
+      "chauffeurnewyears",
+      "photographernewyears",
+      "bouncernewyears",
+      "noisemakernewyears",
+      "dawn"
+    ]
+  },
+  {
+    "id": "champagnetowernewyears",
+    "name": "Champagne Tower",
+    "team": "townsfolk",
+    "ability": "Each night until midnight (night 3), you learn a smaller group of players: first 4, then 3, then 2 at midnight. The Demon is always in the group.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/champagnetowernewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/champagnetowernewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Every tier smaller than the last, and everyone watching the top.",
+    "firstNight": 5,
+    "otherNight": 12,
+    "firstNightReminder": "Point to 4 players, one of them the Demon.",
+    "otherNightReminder": "If it is not yet past midnight, point to a smaller group that includes the Demon: 3 players, or 2 at midnight.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "cufflinksnewyears",
+    "name": "Cufflinks",
+    "team": "townsfolk",
+    "ability": "You start knowing a good player. Each night*, if yours has died, you learn another good player.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/cufflinksnewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/cufflinksnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Always a matched pair. Lose one and you go looking for another.",
+    "firstNight": 6,
+    "otherNight": 11,
+    "firstNightReminder": "Point to a good player: mark them PAIRED.",
+    "otherNightReminder": "If the PAIRED player has died, point to a living good player and move the marker to them.",
+    "reminders": [
+      "Paired"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "guestlistnewyears",
+    "name": "Guest List",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 characters that are not in play.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/guestlistnewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/guestlistnewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "If your name isn't on it, you know Dave, and Dave isn't here.",
+    "firstNight": 7,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Guest List 3 character tokens that are not in play.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "noisemakernewyears",
+    "name": "Noisemaker",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: you learn if they woke tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/noisemakernewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/noisemakernewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Nobody within four blocks is getting any sleep.",
+    "firstNight": 0,
+    "otherNight": 17,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Noisemaker chooses a player: nod if that player woke tonight, shake your head if not.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "chauffeurnewyears",
+    "name": "Chauffeur",
+    "team": "townsfolk",
+    "ability": "You cannot be drunk or poisoned. Each night*, choose a player: you learn if they are drunk or poisoned.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/chauffeurnewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/chauffeurnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "One sparkling water, nine passengers, and a full account of what everybody said.",
+    "firstNight": 0,
+    "otherNight": 14,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Chauffeur chooses a player: nod if they are drunk or poisoned, shake your head if not.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "photographernewyears",
+    "name": "Photographer",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many evil players voted on today's last nomination.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/photographernewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/photographernewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "Last shot of the night. Everyone thinks they looked fine.",
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "Show how many evil players voted on today's last nomination. If there was no nomination, show 0.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sodasiphonnewyears",
+    "name": "Soda Siphon",
+    "team": "townsfolk",
+    "ability": "Each night*, if you did not vote today, choose a player: you learn if they are evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/sodasiphonnewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/sodasiphonnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Just soda for me, thanks. I'd like to remember this.",
+    "firstNight": 0,
+    "otherNight": 13,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Soda Siphon did not vote today, they choose a player: thumbs down if that player is evil, thumbs up if not.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "bouncernewyears",
+    "name": "Bouncer",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn if an evil player nominated today.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bouncernewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bouncernewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "He doesn't remember names. He remembers who started it.",
+    "firstNight": 0,
+    "otherNight": 16,
+    "firstNightReminder": "",
+    "otherNightReminder": "Nod if an evil player nominated today, shake your head if not.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "coathangernewyears",
+    "name": "Coat Hanger",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player (not yourself): they cannot die tonight, but they have no ability until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/coathangernewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/coathangernewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "Your things are perfectly safe. You just can't have them until later.",
+    "firstNight": 0,
+    "otherNight": 3,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Coat Hanger chooses a player: mark them CHECKED. They cannot die tonight and have no ability until dusk tomorrow.",
+    "reminders": [
+      "Checked"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "discoballnewyears",
+    "name": "Disco Ball",
+    "team": "townsfolk",
+    "ability": "The first time the Demon attacks you, you survive, and you learn an evil player.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/discoballnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/discoballnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Throw anything at it and it comes back in a thousand pieces.",
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Disco Ball was attacked by the Demon for the first time tonight, they survive: mark them DIMMED and point to an evil player.",
+    "reminders": [
+      "Dimmed"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "lipsticknewyears",
+    "name": "Lipstick",
+    "team": "townsfolk",
+    "ability": "At midnight (night 3), choose a player: you each learn the other's character, and neither of you can die tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/lipsticknewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/lipsticknewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Ten. Nine. Eight. Whoever is standing nearest. Good luck.",
+    "firstNight": 0,
+    "otherNight": 4,
+    "firstNightReminder": "",
+    "otherNightReminder": "At midnight, the Lipstick chooses a player: mark them KISSED. Show each of them the other's character. Neither can die tonight.",
+    "reminders": [
+      "Kissed"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "karaokemachinenewyears",
+    "name": "Karaoke Machine",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they regain their ability until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/karaokemachinenewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/karaokemachinenewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "One more song. There is always one more song.",
+    "firstNight": 0,
+    "otherNight": 2,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Karaoke Machine may choose a dead player. If they are a Townsfolk, mark them ENCORE: they act as if alive for their ability until dusk tomorrow.",
+    "reminders": [
+      "Encore",
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "confetticannonnewyears",
+    "name": "Confetti Cannon",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day after midnight (night 3), publicly choose 3 neighbouring players: if the Demon is one of them, the Demon dies. If not, you die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/confetticannonnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/confetticannonnewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "Single use. Wide spread. Someone will be finding it in their hair until March.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "dumbbellnewyears",
+    "name": "Dumbbell",
+    "team": "outsider",
+    "ability": "You do not know you are the Dumbbell. You think you are a Townsfolk, and your ability works until midnight (night 3). After that, you are drunk.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/dumbbellnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/dumbbellnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Bought on January 1st. Doorstop by the 19th.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Is the Dumbbell",
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "pottedfernnewyears",
+    "name": "Potted Fern",
+    "team": "outsider",
+    "ability": "At midnight (night 3), if no one has nominated you yet, you die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/pottedfernnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/pottedfernnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "In the corner since nine, waiting for anyone at all to notice.",
+    "firstNight": 0,
+    "otherNight": 7,
+    "firstNightReminder": "",
+    "otherNightReminder": "At midnight, if nobody has nominated the Potted Fern, they die.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "crackedphonenewyears",
+    "name": "Cracked Phone",
+    "team": "outsider",
+    "ability": "Each night*, you must choose a living player. Tomorrow, you must nominate them, or you might die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/crackedphonenewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/crackedphonenewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "You sent it. Now you have to stand by it.",
+    "firstNight": 0,
+    "otherNight": 10,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Cracked Phone chooses a living player: mark them SENT. If the Cracked Phone doesn't nominate them tomorrow, they might die at dusk.",
+    "reminders": [
+      "Sent",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "bartabnewyears",
+    "name": "Bar Tab",
+    "team": "outsider",
+    "ability": "If you are executed, the player who nominated you dies tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bartabnewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bartabnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Somebody has to settle up, and everybody just left.",
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Bar Tab was executed today, the player who nominated them dies.",
+    "reminders": [
+      "Settle up"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "bartendernewyears",
+    "name": "Bartender",
+    "team": "minion",
+    "ability": "Each night, choose a player: they are drunk until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bartendernewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/bartendernewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "First one's on the house. So is the second. That was the trick.",
+    "firstNight": 4,
+    "otherNight": 1,
+    "firstNightReminder": "The Bartender chooses a player: mark them DRUNK.",
+    "otherNightReminder": "The Bartender chooses a player: mark them DRUNK.",
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "tequilashotnewyears",
+    "name": "Tequila Shot",
+    "team": "minion",
+    "ability": "If you are executed, every player who voted for you is drunk until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/tequilashotnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/tequilashotnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "It seemed like a great idea at the time. Everyone agreed.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "hourglassnewyears",
+    "name": "Hourglass",
+    "team": "minion",
+    "ability": "On your first night, choose night 2 or night 4: midnight happens on that night instead of night 3, for every ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/hourglassnewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/hourglassnewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "Somebody turned it over, and nobody in the room can say when.",
+    "firstNight": 1,
+    "otherNight": 0,
+    "firstNightReminder": "The Hourglass chooses night 2 or night 4: midnight falls on that night for every ability.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Midnight tonight"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "hotelkeynewyears",
+    "name": "Hotel Key",
+    "team": "minion",
+    "ability": "If the Demon is executed before midnight (night 3), you become the Demon.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/hotelkeynewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/hotelkeynewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "The venue closed. The room number went around anyway.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Is the Demon"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "brokenbottlenewyears",
+    "name": "Broken Bottle",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. After midnight (night 3), their living neighbours are also poisoned until dusk tomorrow.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/brokenbottlenewyears.png?v=1793572163",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/brokenbottlenewyears_flip.png?v=1793572162"
+    ],
+    "flavor": "It starts with one crack. By morning everyone nearby is feeling it.",
+    "firstNight": 0,
+    "otherNight": 5,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Broken Bottle chooses a player: they die. After midnight, mark their living neighbours POISONED until dusk tomorrow.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "firecrackernewyears",
+    "name": "Firecracker",
+    "team": "demon",
+    "ability": "Each night*, choose a player. Before midnight (night 3), they do not die yet. At midnight, every chosen player dies. After midnight, each player you choose dies.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/firecrackernewyears.png?v=1793572162",
+      "https://chasedcampus.github.io/botc-scripts/i/champagne-and-regrets/firecrackernewyears_flip.png?v=1793572163"
+    ],
+    "flavor": "Everyone is counting. Nobody asked what happens at zero.",
+    "firstNight": 0,
+    "otherNight": 6,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Firecracker chooses a player: mark them COUNTED. At midnight every COUNTED player dies. After midnight, the chosen player dies.",
+    "reminders": [
+      "Counted",
+      "Counted",
+      "Counted",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  }
+]
