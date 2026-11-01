@@ -1,0 +1,485 @@
+[
+  {
+    "id": "_meta",
+    "name": "Milk and Fire",
+    "author": "chäse",
+    "logo": "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/_logo.png?v=1793303793",
+    "almanac": "https://www.bloodstar.xyz/p/chase2013/Milk_and_Fire/almanac.html",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "deermilkandfire",
+      "candymilkandfire",
+      "topmilkandfire",
+      "elfmilkandfire",
+      "milkmilkandfire",
+      "tailormilkandfire",
+      "lanternmilkandfire",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "sledmilkandfire",
+      "topmilkandfire",
+      "elfmilkandfire",
+      "candymilkandfire",
+      "sockmilkandfire",
+      "coalmilkandfire",
+      "buttonmilkandfire",
+      "mittensmilkandfire",
+      "campfiremilkandfire",
+      "bootmilkandfire",
+      "milkmilkandfire",
+      "saintnicholasmilkandfire",
+      "shepherdmilkandfire",
+      "whistlemilkandfire",
+      "bellmilkandfire",
+      "dawn"
+    ]
+  },
+  {
+    "id": "evergreenmilkandfire",
+    "name": "Evergreen",
+    "team": "townsfolk",
+    "ability": "Your alive neighbors can't turn evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/evergreenmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/evergreenmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Some things stay green no matter how cold it gets.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sledmilkandfire",
+    "name": "Sled",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a dead player: you gain their ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/sledmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/sledmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Downhill is the only direction it knows.",
+    "firstNight": 0,
+    "otherNight": 1,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Sled may choose a dead player: the Sled gains that ability.",
+    "reminders": [
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "whistlemilkandfire",
+    "name": "Whistle",
+    "team": "townsfolk",
+    "ability": "If a player turns evil, that night you learn how many steps they are from the Demon.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/whistlemilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/whistlemilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "One sharp blast and the whole yard freezes.",
+    "firstNight": 0,
+    "otherNight": 14,
+    "firstNightReminder": "",
+    "otherNightReminder": "If a player turned evil since dawn, give a finger signal: their distance in steps from the Demon.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "bootmilkandfire",
+    "name": "Boot",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, you may choose to die instead of the player the Demon attacks tonight. You learn their alignment, but not who they are.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/bootmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/bootmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Boots go where nobody else wants to step.",
+    "firstNight": 0,
+    "otherNight": 10,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Boot may choose to step in: mark them STEPPED IN. If the Demon attacks tonight, the Boot dies instead; show the Boot the target's alignment.",
+    "reminders": [
+      "Stepped In",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "chiselmilkandfire",
+    "name": "Chisel",
+    "team": "townsfolk",
+    "ability": "The first Outsider you vote on swaps characters with you.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/chiselmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/chiselmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Chip away long enough and anything becomes something else.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "tailormilkandfire",
+    "name": "Tailor",
+    "team": "townsfolk",
+    "ability": "You start knowing which Outsiders are in play. [+1 Outsider]",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/tailormilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/tailormilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Measure twice, cut once, and always count the odd socks.",
+    "firstNight": 8,
+    "otherNight": 0,
+    "firstNightReminder": "Show the in-play Outsider tokens.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "mittensmilkandfire",
+    "name": "Mittens",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 players: if either is the Demon, the Demon must choose you tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/mittensmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/mittensmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "They always come in pairs. You always lose one.",
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Mittens chooses 2 players. If either is the Demon, mark the Mittens CAUGHT: the Demon must include them tonight.",
+    "reminders": [
+      "Caught"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "campfiremilkandfire",
+    "name": "Campfire",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: they are safe from the Demon tonight. If you are executed, an alive good neighbor becomes a Campfire.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/campfiremilkandfire.png?v=1793491496",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/campfiremilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Gather close; the dark can't reach the circle of light.",
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Campfire chooses a player: mark them WARM.",
+    "reminders": [
+      "Warm"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "milkmilkandfire",
+    "name": "Milk",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player you haven't chosen before: you learn if they are a Cookies. Once you have chosen every Cookies, you turn evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/milkmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/milkmilkandfire_flip.png?v=1793491496"
+    ],
+    "flavor": "The Cookies' best friend — right up until it isn't.",
+    "firstNight": 7,
+    "otherNight": 11,
+    "firstNightReminder": "The Milk chooses a new player: mark them CHOSEN. Nod if they are a Cookies.",
+    "otherNightReminder": "The Milk chooses a new player: mark them CHOSEN. Nod if they are a Cookies. If every Cookies is now CHOSEN, the Milk turns evil.",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "cookiesmilkandfire",
+    "name": "Cookies",
+    "team": "townsfolk",
+    "ability": "If all living good players are Cookies, good wins. [+0 to +2 Cookies]",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/cookiesmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/cookiesmilkandfire_flip.png?v=1793491496"
+    ],
+    "flavor": "Left out for Santa, eaten by everyone else.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "bellmilkandfire",
+    "name": "Bell",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many evil players are alive. If the number of living good and evil players is equal, you die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/bellmilkandfire.png?v=1793491496",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/bellmilkandfire_flip.png?v=1793491496"
+    ],
+    "flavor": "It rings out the count, and one day it tolls for itself.",
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "Give a finger signal.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "lanternmilkandfire",
+    "name": "Lantern",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 evil characters, 2 of which are in play.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/lanternmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/lanternmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Enough light to see the shapes, never enough to see the faces.",
+    "firstNight": 9,
+    "otherNight": 0,
+    "firstNightReminder": "Show 3 evil character tokens, 2 of which are in play.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "shepherdmilkandfire",
+    "name": "Shepherd",
+    "team": "townsfolk",
+    "ability": "If the Demon kills you, a living Minion becomes a Shepherd and turns good.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/shepherdmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/shepherdmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Even the black sheep can be brought home.",
+    "firstNight": 0,
+    "otherNight": 13,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Demon killed the Shepherd, change a living Minion's token to Shepherd. They turn good; wake them to show it.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "fruitcakemilkandfire",
+    "name": "Fruitcake",
+    "team": "outsider",
+    "ability": "If you die at night, either all Cookies lose their ability or the Milk turns evil (Storyteller's choice).",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/fruitcakemilkandfire.png?v=1793491496",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/fruitcakemilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Nobody asked for it. Nobody can get rid of it.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "buttonmilkandfire",
+    "name": "Button",
+    "team": "outsider",
+    "ability": "Each night*, you must choose a player you haven't chosen before: if they are an Outsider or Minion, an extra player dies tonight (the Demon's choice).",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/buttonmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/buttonmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Hanging on by a thread.",
+    "firstNight": 0,
+    "otherNight": 7,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Button chooses a new player: mark them CHOSEN. If an Outsider or Minion, mark POPPED: the Demon kills an extra player tonight.",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Popped"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "candymilkandfire",
+    "name": "Candy",
+    "team": "outsider",
+    "ability": "The first time you vote, the Demon learns who you are. On night 1, choose a player: each night you register as waking if they slept, and as sleeping if they woke.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/candymilkandfire.png?v=1793491496",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/candymilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Sweet on the outside, a choking hazard on the inside.",
+    "firstNight": 4,
+    "otherNight": 4,
+    "firstNightReminder": "The Candy chooses a player: mark them SWEET.",
+    "otherNightReminder": "If the Candy voted for the first time today, wake the Demon and point to the Candy.",
+    "reminders": [
+      "Sweet",
+      "Revealed"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sockmilkandfire",
+    "name": "Sock",
+    "team": "outsider",
+    "ability": "If you are \"mad\" that you are a Sock, a good player (Demon's choice) turns evil and becomes a Coal.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/sockmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/sockmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Hung with care. Filled with disappointment.",
+    "firstNight": 0,
+    "otherNight": 5,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Sock was mad about being the Sock today, the Demon chooses a good player: they become an evil Coal. Wake them to show it.",
+    "reminders": [
+      "Mad"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "coalmilkandfire",
+    "name": "Coal",
+    "team": "minion",
+    "ability": "You cannot die by execution. If you are executed, that night all Coal wake and choose a player: they die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/coalmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/coalmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Naughty list, page one.",
+    "firstNight": 0,
+    "otherNight": 6,
+    "firstNightReminder": "",
+    "otherNightReminder": "If a Coal was executed today, wake every Coal together: they choose a player, who dies.",
+    "reminders": [
+      "Executed",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "deermilkandfire",
+    "name": "Deer",
+    "team": "minion",
+    "ability": "On your 1st night, choose a player: they become a not-in-play Outsider. [-1 Outsider]",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/deermilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/deermilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Up on the housetop, with a hoof in everyone's business.",
+    "firstNight": 3,
+    "otherNight": 0,
+    "firstNightReminder": "The Deer chooses a player: give them a not-in-play Outsider token and wake them to show it.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "elfmilkandfire",
+    "name": "Elf",
+    "team": "minion",
+    "ability": "Each night, choose a player: if you nominate them tomorrow and they are executed, they turn evil.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/elfmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/elfmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Makes the toys, checks the list, makes a few adjustments.",
+    "firstNight": 6,
+    "otherNight": 3,
+    "firstNightReminder": "The Elf chooses a player: mark them TAGGED.",
+    "otherNightReminder": "The Elf chooses a player: mark them TAGGED.",
+    "reminders": [
+      "Tagged",
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "topmilkandfire",
+    "name": "Top",
+    "team": "minion",
+    "ability": "Each night, choose a player: until dusk, they register as waking if they slept, and as sleeping if they woke.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/topmilkandfire.png?v=1793491497",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/topmilkandfire_flip.png?v=1793491497"
+    ],
+    "flavor": "Spin it fast enough and nobody can tell which way it's facing.",
+    "firstNight": 5,
+    "otherNight": 2,
+    "firstNightReminder": "The Top chooses a player: mark them SPUN.",
+    "otherNightReminder": "The Top chooses a player: mark them SPUN.",
+    "reminders": [
+      "Spun"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "saintnicholasmilkandfire",
+    "name": "Saint Nicholas",
+    "team": "demon",
+    "ability": "Each night*, choose 2 players: if exactly one of them woke tonight to use an ability, both die. Otherwise, one of them might die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/saintnicholasmilkandfire.png?v=1793491496",
+      "https://chasedcampus.github.io/botc-scripts/i/milk-and-fire/saintnicholasmilkandfire_flip.png?v=1793491496"
+    ],
+    "flavor": "He's checked the list twice, and he's watching who stirs after dark.",
+    "firstNight": 0,
+    "otherNight": 12,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Saint Nicholas chooses 2 players. If exactly one woke tonight (count SPUN and SWEET as flipped), both die. Otherwise, one might die.",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  }
+]
