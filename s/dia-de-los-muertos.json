@@ -46,8 +46,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a dead player: tonight, they have their ability as if they were alive.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/altardiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "The ofrenda: their photo, their favourite bread, a glass of what they liked to drink. Come home for one night.",
     "firstNight": 0,
@@ -66,8 +66,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a living player: if they die tonight, they keep their ability while dead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos_flip.png?v=1793469145"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "A candle in the window, so they can find their way back.",
     "firstNight": 0,
@@ -87,8 +87,8 @@
     "team": "townsfolk",
     "ability": "While you are alive, dead players don't use up their vote when they vote.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/marigolddiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Cempasúchil. Follow the orange petals from the graveyard to the door.",
     "firstNight": 0,
@@ -105,8 +105,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player (not yourself): if the Demon attacks them tonight, you die instead, and learn who the Demon is.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/guidedogdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "The Xoloitzcuintli walks you all the way to Mictlán. A good one bites on the way.",
     "firstNight": 0,
@@ -126,8 +126,8 @@
     "team": "townsfolk",
     "ability": "Each night*, you learn how many dead players are evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/monarchdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "La monarca arrives every year at the start of November. Count them carefully.",
     "firstNight": 0,
@@ -144,8 +144,8 @@
     "team": "townsfolk",
     "ability": "Your living neighbours can't be drunk or poisoned.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/incensediadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Copal smoke keeps the bad air away from the altar.",
     "firstNight": 0,
@@ -162,8 +162,8 @@
     "team": "townsfolk",
     "ability": "Each day, you may publicly recite a calavera (a short, funny poem) about a living player. Tonight, you learn if they are evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/poetdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Here lies poor Beto, who swore he was good. The Demon laughed louder than anyone should.",
     "firstNight": 0,
@@ -182,8 +182,8 @@
     "team": "townsfolk",
     "ability": "You start knowing 3 good characters that are not in play.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos.png?v=1793469145",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/papercutterdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Papel picado, cut so finely you can see right through it.",
     "firstNight": 8,
@@ -200,8 +200,8 @@
     "team": "townsfolk",
     "ability": "On your 1st night, choose a player: you learn their character. Each night*, you learn if their character or alignment has changed.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/photographdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "The picture never changes. The person might.",
     "firstNight": 9,
@@ -220,8 +220,8 @@
     "team": "townsfolk",
     "ability": "Each night, you have the ability of a good character not in play (the Storyteller's choice). You learn which.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos.png?v=1793469145",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos.png?v=1793547722",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/woodcarverdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "Tonight's alebrije is part jaguar, part eagle, part whatever the carver dreamed last night.",
     "firstNight": 7,
@@ -240,8 +240,8 @@
     "team": "townsfolk",
     "ability": "You start knowing a good player and their character. If they die, you learn an evil player that night.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/abueladiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "She knows every grandchild by name. She has opinions about the new boyfriend.",
     "firstNight": 10,
@@ -260,8 +260,8 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a dead player: you learn their character, and they learn yours.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/bakerdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Pan de muerto for the departed. They brought the coffee.",
     "firstNight": 0,
@@ -278,8 +278,8 @@
     "team": "townsfolk",
     "ability": "If you are dead, you may still nominate.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/sugarskulldiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "Your name in icing on the forehead. Dead? Yes. Done? Absolutely not.",
     "firstNight": 0,
@@ -296,8 +296,8 @@
     "team": "outsider",
     "ability": "Each night, you must choose a living player: they are drunk until dusk tomorrow.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/frightdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "Susto: a fright so bad your soul jumped out. It has to land on somebody.",
     "firstNight": 3,
@@ -316,8 +316,8 @@
     "team": "outsider",
     "ability": "While you are alive, dead players' abilities don't work.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gluttondiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "The tamales were for the ancestors. Were.",
     "firstNight": 0,
@@ -334,8 +334,8 @@
     "team": "outsider",
     "ability": "If you are executed, the Demon may kill an extra player tonight.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mournerdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "The plañidera is paid to weep at funerals. Tonight she weeps at her own.",
     "firstNight": 0,
@@ -354,8 +354,8 @@
     "team": "outsider",
     "ability": "If you die, you return to life at dawn, but you are evil. You learn who the Demon is.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/restlesssouldiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "An alma en pena. Some souls go home on the second of November. This one came back wrong.",
     "firstNight": 0,
@@ -374,8 +374,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: until dusk, you register as their character and alignment.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/shapeshifterdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "The nahual: by day a neighbour, by night a jaguar wearing the neighbour's face.",
     "firstNight": 6,
@@ -394,8 +394,8 @@
     "team": "minion",
     "ability": "Each night, choose a living player: until dusk, they are drunk and register as dead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/willowispdiadelosmuertos_flip.png?v=1793547722"
     ],
     "flavor": "Follow the little light into the trees. In the morning you'll still be standing there; you just won't be home.",
     "firstNight": 4,
@@ -414,8 +414,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: they are poisoned until dusk tomorrow. If they are dead, they also lose their vote.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/darkriderdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "El Charro Negro offers you a ride home. Do not get on the horse.",
     "firstNight": 5,
@@ -434,8 +434,8 @@
     "team": "minion",
     "ability": "Each night*, choose a dead player: you learn their character. If the Demon dies, you become the Demon.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/soulthiefdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "He doesn't steal the candles or the bread. He steals who they were.",
     "firstNight": 0,
@@ -454,8 +454,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Players you kill lose their vote, and can't regain their ability.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "He guards the gate of Mictlán. Every soul passes it eventually. He just prefers sooner.",
     "firstNight": 0,
@@ -475,8 +475,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If a good player was executed today, choose 2 players instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos.png?v=1793469146",
-      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos_flip.png?v=1793469146"
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos.png?v=1793547723",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos_flip.png?v=1793547723"
     ],
     "flavor": "Every bone in here has a name. Every mistake the living make adds another.",
     "firstNight": 0,
