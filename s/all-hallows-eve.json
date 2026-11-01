@@ -45,8 +45,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player you haven't chosen before: you learn \"treat\" if they are a Townsfolk, or \"trick\" if not.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve_flip.png?v=1793466666"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/trickortreaterallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Third house on the left gives out full-size bars. Fourth house gives out pennies. Never go to the fourth house.",
     "firstNight": 8,
@@ -65,8 +65,8 @@
     "team": "townsfolk",
     "ability": "If the Demon attacks one of your living neighbours, you die instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/jackolanternallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Carved to keep the spirits off the porch. Nobody said it would survive the night.",
     "firstNight": 0,
@@ -83,8 +83,8 @@
     "team": "townsfolk",
     "ability": "Minions can't choose you or your living neighbours at night.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve_flip.png?v=1793466666"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/scarecrowallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "It has never once caught a crow. It has, however, frightened several Minions.",
     "firstNight": 0,
@@ -101,8 +101,8 @@
     "team": "townsfolk",
     "ability": "If a good player is executed, you may become their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Stitched together from whatever the village threw away. Today, that was a Doorbell.",
     "firstNight": 0,
@@ -119,8 +119,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a dead player: they point at a living player. You learn if that player is evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ouijaboardallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Nobody is moving it. Everybody is moving it.",
     "firstNight": 7,
@@ -139,8 +139,8 @@
     "team": "townsfolk",
     "ability": "Each night*, you learn how many of your living neighbours woke tonight.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/batallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "It can't see a thing. It heard you, though.",
     "firstNight": 0,
@@ -157,8 +157,8 @@
     "team": "townsfolk",
     "ability": "You start knowing 3 players, exactly 1 of whom is evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/partyhostallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Three guests arrived together. One of them didn't bring anything.",
     "firstNight": 9,
@@ -179,8 +179,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose a player: if they are evil, they die. If they are good, you die.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/monsterhunterallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Silver, garlic, holy water, a wooden stake and a strong opinion about which neighbour it is.",
     "firstNight": 0,
@@ -199,8 +199,8 @@
     "team": "townsfolk",
     "ability": "The 1st night after you die, choose 3 players: you learn if one of them is the Demon.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/skeletonallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Dying was the easy part. Climbing back out took all night.",
     "firstNight": 0,
@@ -219,8 +219,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player (not yourself): they are sober and healthy until dusk tomorrow.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/candybowlallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Take one. Okay, take two. Nobody is checking.",
     "firstNight": 1,
@@ -239,8 +239,8 @@
     "team": "townsfolk",
     "ability": "If an evil player nominates you, they are poisoned until dusk tomorrow.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/blackcatallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Crossed your path, did it? That was a choice you made.",
     "firstNight": 0,
@@ -259,8 +259,8 @@
     "team": "townsfolk",
     "ability": "Each night*, you learn how many players chose you tonight.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/doorbellallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Ding dong. Ding dong. Ding dong. Nobody there.",
     "firstNight": 0,
@@ -277,8 +277,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn whether the Demon is closer to you clockwise, closer anticlockwise, or equally close.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/cornmazeallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Keep your left hand on the wall. Or was it the right?",
     "firstNight": 10,
@@ -295,8 +295,8 @@
     "team": "outsider",
     "ability": "If a Townsfolk chooses you at night, they are drunk until dusk.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve.png?v=1793501021",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/hauntedhouseallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "The previous owners left in a hurry. They left the curtains, the piano and the screaming.",
     "firstNight": 0,
@@ -315,8 +315,8 @@
     "team": "outsider",
     "ability": "On night 3, you turn evil. You learn who the Demon is, and they learn who you are.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve_flip.png?v=1793466666"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/werewolfallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Perfectly lovely for two nights a month. Please plan accordingly.",
     "firstNight": 0,
@@ -335,8 +335,8 @@
     "team": "outsider",
     "ability": "If you die, a living good neighbour of yours is poisoned for the rest of the game.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve_flip.png?v=1793466666"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/rottenpumpkinallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "It was a fine pumpkin on the first of October.",
     "firstNight": 0,
@@ -355,8 +355,8 @@
     "team": "outsider",
     "ability": "You start the game dead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/ghostallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Just a sheet with eyeholes. Probably.",
     "firstNight": 0,
@@ -375,8 +375,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: until dusk, they register as any character and alignment of your choice.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/costumemakerallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "One mask for the party. One mask for the morning after.",
     "firstNight": 5,
@@ -395,8 +395,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: they are poisoned tonight and tomorrow. If they are a Townsfolk, you learn their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve.png?v=1793467614",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve_flip.png?v=1793467614"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/badappleallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Looks like a treat. Always check your candy.",
     "firstNight": 4,
@@ -415,8 +415,8 @@
     "team": "minion",
     "ability": "Each night*, choose a dead player: tonight, you have their ability.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/graverobberallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "The dead don't need it. That's the whole argument.",
     "firstNight": 0,
@@ -435,8 +435,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: tomorrow, votes to execute them count twice.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/torchbearerallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Every mob needs someone to light the first torch.",
     "firstNight": 6,
@@ -455,8 +455,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Each time you kill a Townsfolk, you take their head: you register as their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve.png?v=1793466666",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve_flip.png?v=1793466665"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/headlesshorsemanallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "He's been looking for a head that fits for two hundred years.",
     "firstNight": 0,
@@ -476,8 +476,8 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Once per game, they turn evil instead, and learn who you are.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve.png?v=1793466665",
-      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve_flip.png?v=1793466666"
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve.png?v=1793501022",
+      "https://chasedcampus.github.io/botc-scripts/i/all-hallows-eve/vampireallhallowseve_flip.png?v=1793501022"
     ],
     "flavor": "Invite him in once. That's all it takes.",
     "firstNight": 0,
