@@ -66,46 +66,20 @@
     "setup": false
   },
   {
-    "id": "priesthouseofeternalsilence",
-    "name": "Priest",
+    "id": "glyphhouseofeternalsilence",
+    "name": "Glyph",
     "team": "townsfolk",
-    "ability": "On your 1st day, publicly choose 5 players. That night, learn 2 of their roles and 1 false one.",
+    "ability": "Each night, choose a player: you learn a word from their character's flavor text.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/priesthouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/priesthouseofeternalsilence_flip.png?v=1793464908"
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/glyphhouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/glyphhouseofeternalsilence_flip.png?v=1793464908"
     ],
-    "flavor": "Their voice was calm, their vision clouded — but they held the names of the chosen in their heart.",
-    "firstNight": 0,
-    "otherNight": 15,
-    "firstNightReminder": "",
-    "otherNightReminder": "If the Priest publicly chose 5 players on day 1, show 2 of their character tokens and 1 not-in-play character token, shuffled.",
-    "reminders": [
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "ankhhouseofeternalsilence",
-    "name": "Ankh",
-    "team": "townsfolk",
-    "ability": "Each night*, choose a dead player: they regain their ability until dusk.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/ankhhouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/ankhhouseofeternalsilence_flip.png?v=1793464908"
-    ],
-    "flavor": "With sacred breath, they call the spirit back. But only until the sun sets.",
-    "firstNight": 0,
-    "otherNight": 3,
-    "firstNightReminder": "",
-    "otherNightReminder": "The Ankh chooses a dead player: mark them RESTORED.",
-    "reminders": [
-      "Restored"
-    ],
+    "flavor": "Though silent, the mark speaks. One word is all it takes to disturb the balance.",
+    "firstNight": 11,
+    "otherNight": 18,
+    "firstNightReminder": "The Glyph chooses a player: show one meaningful word from that character's flavor text.",
+    "otherNightReminder": "The Glyph chooses a player: show one meaningful word from that character's flavor text.",
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false
   },
@@ -123,24 +97,6 @@
     "otherNight": 17,
     "firstNightReminder": "The Scarab chooses a player. Nod if any other ability chose them tonight.",
     "otherNightReminder": "The Scarab chooses a player. Nod if any other ability chose them tonight.",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "glyphhouseofeternalsilence",
-    "name": "Glyph",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn a word from their character's flavor text.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/glyphhouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/glyphhouseofeternalsilence_flip.png?v=1793464908"
-    ],
-    "flavor": "Though silent, the mark speaks. One word is all it takes to disturb the balance.",
-    "firstNight": 11,
-    "otherNight": 18,
-    "firstNightReminder": "The Glyph chooses a player: show one meaningful word from that character's flavor text.",
-    "otherNightReminder": "The Glyph chooses a player: show one meaningful word from that character's flavor text.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false
@@ -166,6 +122,24 @@
     "setup": true
   },
   {
+    "id": "sphynxhouseofeternalsilence",
+    "name": "Sphynx",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: if they are good, you learn an in-play character; if evil, a not-in-play character.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sphynxhouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sphynxhouseofeternalsilence_flip.png?v=1793464908"
+    ],
+    "flavor": "Their riddle has no answer — only paths, and each leads to another truth.",
+    "firstNight": 12,
+    "otherNight": 19,
+    "firstNightReminder": "The Sphynx chooses a player. Show an in-play character if they're good, a not-in-play character if evil.",
+    "otherNightReminder": "The Sphynx chooses a player. Show an in-play character if they're good, a not-in-play character if evil.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
     "id": "seerhouseofeternalsilence",
     "name": "Seer",
     "team": "townsfolk",
@@ -184,20 +158,22 @@
     "setup": false
   },
   {
-    "id": "sphynxhouseofeternalsilence",
-    "name": "Sphynx",
+    "id": "ankhhouseofeternalsilence",
+    "name": "Ankh",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: if they are good, you learn an in-play character; if evil, a not-in-play character.",
+    "ability": "Each night*, choose a dead player: they regain their ability until dusk.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sphynxhouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sphynxhouseofeternalsilence_flip.png?v=1793464908"
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/ankhhouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/ankhhouseofeternalsilence_flip.png?v=1793464908"
     ],
-    "flavor": "Their riddle has no answer — only paths, and each leads to another truth.",
-    "firstNight": 12,
-    "otherNight": 19,
-    "firstNightReminder": "The Sphynx chooses a player. Show an in-play character if they're good, a not-in-play character if evil.",
-    "otherNightReminder": "The Sphynx chooses a player. Show an in-play character if they're good, a not-in-play character if evil.",
-    "reminders": [],
+    "flavor": "With sacred breath, they call the spirit back. But only until the sun sets.",
+    "firstNight": 0,
+    "otherNight": 3,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Ankh chooses a dead player: mark them RESTORED.",
+    "reminders": [
+      "Restored"
+    ],
     "remindersGlobal": [],
     "setup": false
   },
@@ -287,6 +263,30 @@
         "name": "bag-duplicate"
       }
     ]
+  },
+  {
+    "id": "priesthouseofeternalsilence",
+    "name": "Priest",
+    "team": "townsfolk",
+    "ability": "On your 1st day, publicly choose 5 players. That night, learn 2 of their roles and 1 false one.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/priesthouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/priesthouseofeternalsilence_flip.png?v=1793464908"
+    ],
+    "flavor": "Their voice was calm, their vision clouded — but they held the names of the chosen in their heart.",
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Priest publicly chose 5 players on day 1, show 2 of their character tokens and 1 not-in-play character token, shuffled.",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen"
+    ],
+    "remindersGlobal": [],
+    "setup": false
   },
   {
     "id": "crookflailhouseofeternalsilence",
@@ -398,31 +398,6 @@
     "setup": false
   },
   {
-    "id": "cultisthouseofeternalsilence",
-    "name": "Cultist",
-    "team": "minion",
-    "ability": "On your 1st day, publicly choose 5 players. That night, learn 2 of their characters, then choose 1 of the 5: they turn evil.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/cultisthouseofeternalsilence.png?v=1793464909",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/cultisthouseofeternalsilence_flip.png?v=1793464909"
-    ],
-    "flavor": "Among the crowd, they smile. But their heart beats to another song.",
-    "firstNight": 0,
-    "otherNight": 14,
-    "firstNightReminder": "",
-    "otherNightReminder": "If the Cultist publicly chose 5 players on day 1, show 2 of their character tokens. The Cultist chooses 1 of the 5: they turn evil; wake them to tell them.",
-    "reminders": [
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Evil"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "flutehouseofeternalsilence",
     "name": "Flute",
     "team": "minion",
@@ -439,6 +414,27 @@
     "reminders": [
       "Charmed",
       "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sarcophagushouseofeternalsilence",
+    "name": "Sarcophagus",
+    "team": "minion",
+    "ability": "Each night, choose a dead player: they can't vote tomorrow. The first time you die, you come back to life at dawn.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sarcophagushouseofeternalsilence.png?v=1793464909",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sarcophagushouseofeternalsilence_flip.png?v=1793464909"
+    ],
+    "flavor": "Stone keeps its secrets, and its occupants, longer than anyone expects.",
+    "firstNight": 7,
+    "otherNight": 6,
+    "firstNightReminder": "The Sarcophagus chooses a dead player: mark them SEALED.",
+    "otherNightReminder": "The Sarcophagus chooses a dead player: mark them SEALED. If the Sarcophagus died today for the first time, they come back to life at dawn.",
+    "reminders": [
+      "Sealed",
+      "Risen"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -484,44 +480,26 @@
     "setup": false
   },
   {
-    "id": "sarcophagushouseofeternalsilence",
-    "name": "Sarcophagus",
+    "id": "cultisthouseofeternalsilence",
+    "name": "Cultist",
     "team": "minion",
-    "ability": "Each night, choose a dead player: they can't vote tomorrow. The first time you die, you come back to life at dawn.",
+    "ability": "On your 1st day, publicly choose 5 players. That night, learn 2 of their characters, then choose 1 of the 5: they turn evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sarcophagushouseofeternalsilence.png?v=1793464909",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/sarcophagushouseofeternalsilence_flip.png?v=1793464909"
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/cultisthouseofeternalsilence.png?v=1793464909",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/cultisthouseofeternalsilence_flip.png?v=1793464909"
     ],
-    "flavor": "Stone keeps its secrets, and its occupants, longer than anyone expects.",
-    "firstNight": 7,
-    "otherNight": 6,
-    "firstNightReminder": "The Sarcophagus chooses a dead player: mark them SEALED.",
-    "otherNightReminder": "The Sarcophagus chooses a dead player: mark them SEALED. If the Sarcophagus died today for the first time, they come back to life at dawn.",
-    "reminders": [
-      "Sealed",
-      "Risen"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "jackalhouseofeternalsilence",
-    "name": "Jackal",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Once per game, choose a dead player instead: they come back to life and turn evil.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/jackalhouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/jackalhouseofeternalsilence_flip.png?v=1793464908"
-    ],
-    "flavor": "It circles the tombs at night, and what it digs up never stays buried.",
+    "flavor": "Among the crowd, they smile. But their heart beats to another song.",
     "firstNight": 0,
-    "otherNight": 9,
+    "otherNight": 14,
     "firstNightReminder": "",
-    "otherNightReminder": "The Jackal chooses a player: they die. Or, once per game, a dead player: they come back to life and turn evil (wake them to tell them). If the Tomb is in play and players are still dead, the Demon instead chooses a dead player: they come back to life.",
+    "otherNightReminder": "If the Cultist publicly chose 5 players on day 1, show 2 of their character tokens. The Cultist chooses 1 of the 5: they turn evil; wake them to tell them.",
     "reminders": [
-      "Dead",
-      "Risen",
-      "No Ability"
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Evil"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -540,6 +518,27 @@
     "otherNight": 10,
     "firstNightReminder": "",
     "otherNightReminder": "The Ma'at chooses a player: they die. If that player was evil, the Ma'at chooses another player: they die. If the Tomb is in play and players are still dead, the Demon instead chooses a dead player: they come back to life.",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "serpenthouseofeternalsilence",
+    "name": "Serpent",
+    "team": "demon",
+    "ability": "Each night*, choose a player, they die. If they are an outsider or register as evil, a good neighbor also dies.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/serpenthouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/serpenthouseofeternalsilence_flip.png?v=1793464908"
+    ],
+    "flavor": "In the silence between breaths, it devours — not flesh, but light.",
+    "firstNight": 0,
+    "otherNight": 12,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Serpent chooses a player: they die. If they were an Outsider or registered as evil, a good neighbor also dies. If the Tomb is in play and players are still dead, the Demon instead chooses a dead player: they come back to life.",
     "reminders": [
       "Dead",
       "Dead"
@@ -569,22 +568,23 @@
     "setup": false
   },
   {
-    "id": "serpenthouseofeternalsilence",
-    "name": "Serpent",
+    "id": "jackalhouseofeternalsilence",
+    "name": "Jackal",
     "team": "demon",
-    "ability": "Each night*, choose a player, they die. If they are an outsider or register as evil, a good neighbor also dies.",
+    "ability": "Each night*, choose a player: they die. Once per game, choose a dead player instead: they come back to life and turn evil.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/serpenthouseofeternalsilence.png?v=1793464908",
-      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/serpenthouseofeternalsilence_flip.png?v=1793464908"
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/jackalhouseofeternalsilence.png?v=1793464908",
+      "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/jackalhouseofeternalsilence_flip.png?v=1793464908"
     ],
-    "flavor": "In the silence between breaths, it devours — not flesh, but light.",
+    "flavor": "It circles the tombs at night, and what it digs up never stays buried.",
     "firstNight": 0,
-    "otherNight": 12,
+    "otherNight": 9,
     "firstNightReminder": "",
-    "otherNightReminder": "The Serpent chooses a player: they die. If they were an Outsider or registered as evil, a good neighbor also dies. If the Tomb is in play and players are still dead, the Demon instead chooses a dead player: they come back to life.",
+    "otherNightReminder": "The Jackal chooses a player: they die. Or, once per game, a dead player: they come back to life and turn evil (wake them to tell them). If the Tomb is in play and players are still dead, the Demon instead chooses a dead player: they come back to life.",
     "reminders": [
       "Dead",
-      "Dead"
+      "Risen",
+      "No Ability"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -611,28 +611,6 @@
     "setup": true
   },
   {
-    "id": "tombhouseofeternalsilence",
-    "name": "Tomb",
-    "team": "fabled",
-    "ability": "All players start dead (with no abilities). Each night, the Demon brings 1 player back to life instead of killing; each day, the town may vote to bring 1 player back. Once everyone is alive, play continues normally.",
-    "image": "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/tombhouseofeternalsilence.png?v=1793464908",
-    "flavor": "From stillness, it begins. In silence, the players are chosen — not by birth, but by return.",
-    "firstNight": 3,
-    "otherNight": 0,
-    "firstNightReminder": "If the Tomb is in play, the Demon chooses a dead player: they come back to life. Wake them to tell them.",
-    "otherNightReminder": "",
-    "reminders": [
-      "Risen",
-      "Risen",
-      "Risen",
-      "Risen",
-      "Risen",
-      "Risen"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "scorpionhouseofeternalsilence",
     "name": "Scorpion",
     "team": "traveller",
@@ -650,6 +628,28 @@
     "reminders": [
       "Stung",
       "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "tombhouseofeternalsilence",
+    "name": "Tomb",
+    "team": "fabled",
+    "ability": "All players start dead (with no abilities). Each night, the Demon brings 1 player back to life instead of killing; each day, the town may vote to bring 1 player back. Once everyone is alive, play continues normally.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/house-of-eternal-silence/tombhouseofeternalsilence.png?v=1793464908",
+    "flavor": "From stillness, it begins. In silence, the players are chosen — not by birth, but by return.",
+    "firstNight": 3,
+    "otherNight": 0,
+    "firstNightReminder": "If the Tomb is in play, the Demon chooses a dead player: they come back to life. Wake them to tell them.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Risen",
+      "Risen",
+      "Risen",
+      "Risen",
+      "Risen",
+      "Risen"
     ],
     "remindersGlobal": [],
     "setup": false
