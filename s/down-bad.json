@@ -171,7 +171,13 @@
     "reminders": [
       "No Ability"
     ],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "baddie",
@@ -209,7 +215,13 @@
     "reminders": [
       "Cracked"
     ],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "understudy",
@@ -272,7 +284,7 @@
     "id": "bear",
     "name": "Bear",
     "team": "townsfolk",
-    "ability": "Your alive neighbors are safe from the Demon.",
+    "ability": "Your alive neighbors are safe from the Demon. [+0 to +1 Bear]",
     "flavor": "C'mere, you two. Nothing bad happens in these arms. Mostly because nothing can find you in there.",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/down-bad/bear.png?v=1793489115",
@@ -283,7 +295,13 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "setup": false
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
   },
   {
     "id": "butch",
@@ -436,7 +454,13 @@
     "reminders": [
       "I've Changed"
     ],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "fuckboy",
@@ -455,13 +479,19 @@
     "reminders": [
       "No Ability"
     ],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "twink",
     "name": "Twink",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If you die by execution, twink death: the player who nominated you becomes an evil Demon of a different type.",
+    "ability": "Each night*, choose a player: they die. If you die by execution, twink death: the player who nominated you becomes an evil Demon of a different type. [-1 Outsider]",
     "flavor": "I am NOT thirty. I am twenty-nine and three quarters. And if you people put me out to pasture, one of you is inheriting all of this.",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/down-bad/twink.png?v=1793489115",
@@ -475,13 +505,19 @@
       "Dead",
       "Nominator"
     ],
-    "setup": false
+    "setup": true,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "diva",
     "name": "Diva",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If you were nominated today, choose 2 players instead.",
+    "ability": "Each night*, choose a player: they die. If you were nominated today, choose 2 players instead. [+1 Outsider]",
     "flavor": "You dare say MY name? In MY spotlight? Fine. Tonight is a double feature.",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/down-bad/diva.png?v=1793489115",
@@ -496,13 +532,13 @@
       "Dead",
       "Nominated"
     ],
-    "setup": false
+    "setup": true
   },
   {
     "id": "dltrade",
     "name": "DL Trade",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Until a Minion dies, you register as good & as a Townsfolk.",
+    "ability": "Each night*, choose a player: they die. Until a Minion dies, you register as good & as a Townsfolk. [+1 Minion]",
     "flavor": "Nah bro, I'm straight. This is just a thing I do sometimes. These are my buddies. Do not ask my buddies anything.",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/down-bad/dltrade.png?v=1793489114",
@@ -516,7 +552,7 @@
       "Dead",
       "Clocked"
     ],
-    "setup": false
+    "setup": true
   },
   {
     "id": "maneater",
@@ -537,6 +573,44 @@
       "Gagged",
       "Gagged"
     ],
+    "setup": false
+  },
+  {
+    "id": "prideparade",
+    "name": "Pride Parade",
+    "team": "fabled",
+    "ability": "Once per game, during the day, the town may hold a parade: every living player publicly says what character they are. Nobody may be executed today.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/down-bad/prideparade.png?v=1793578534",
+    "flavor": "Everyone's out, loud, and lying about at least one thing.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Used"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "dragqueen",
+    "name": "Drag Queen",
+    "team": "traveller",
+    "ability": "Each day, you may publicly read a player: they cannot vote on the next nomination.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/dragqueen.png?v=1793578534",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/dragqueen_good.png?v=1793578534",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/dragqueen_evil.png?v=1793578534"
+    ],
+    "flavor": "Reading is what? Fundamental.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Read"
+    ],
+    "remindersGlobal": [],
     "setup": false
   }
 ]
