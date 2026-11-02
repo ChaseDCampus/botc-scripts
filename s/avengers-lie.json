@@ -331,10 +331,11 @@
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [
-      "Is Moon Knight",
       "Drunk"
     ],
-    "remindersGlobal": [],
+    "remindersGlobal": [
+      "Is Moon Knight"
+    ],
     "setup": false,
     "special": [
       {
@@ -561,7 +562,7 @@
     "id": "timeheistavengerslie",
     "name": "Time Heist",
     "team": "fabled",
-    "ability": "Once per game, at dawn, the living players may vote: with a majority, one player who died last night returns to life.",
+    "ability": "Once per game, during the day, the living players may vote: with a majority, one player who died last night returns to life.",
     "image": "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/timeheistavengerslie.png?v=1793576682",
     "flavor": "One shot, one trip back, and no second chances if the plan goes wrong.",
     "firstNight": 0,
@@ -572,6 +573,13 @@
       "Used"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "day"
+      }
+    ]
   }
 ]
