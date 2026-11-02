@@ -306,10 +306,11 @@
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [
-      "Is the Dumbbell",
       "Drunk"
     ],
-    "remindersGlobal": [],
+    "remindersGlobal": [
+      "Is the Dumbbell"
+    ],
     "setup": false,
     "special": [
       {
