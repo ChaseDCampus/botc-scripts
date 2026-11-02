@@ -62,47 +62,6 @@
     ]
   },
   {
-    "id": "stalkergoosegooseduck",
-    "name": "Stalker",
-    "team": "townsfolk",
-    "ability": "On your 1st night, select a player. When they die, you learn their alignment that night.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/stalkergoosegooseduck.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/stalkergoosegooseduck_flip.png?v=1793588503"
-    ],
-    "flavor": "You’re always watching. Quiet. Creeping. Just close enough to catch a killer mid-swoop— but never too close to become the prey.",
-    "firstNight": 11,
-    "otherNight": 31,
-    "firstNightReminder": "The Stalker chooses a player: mark them STALKED.",
-    "otherNightReminder": "If the STALKED player died, show a thumbs up (good) or down (evil).",
-    "reminders": [
-      "Stalked"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "coronergoosegooseduck",
-    "name": "Coroner",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player: if they die before you next wake, your vote counts as 2 the next day.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/coronergoosegooseduck.png?v=1793588596",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/coronergoosegooseduck_flip.png?v=1793588596"
-    ],
-    "flavor": "You've seen more autopsies than takeoffs. One more body and you’re ready to pass judgment.",
-    "firstNight": 12,
-    "otherNight": 23,
-    "firstNightReminder": "The Coroner chooses a player: mark them CHOSEN.",
-    "otherNightReminder": "If the CHOSEN player died tonight, mark the Coroner DOUBLED. The Coroner chooses a player.",
-    "reminders": [
-      "Chosen",
-      "Doubled"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "engineergoosegooseduck",
     "name": "Engineer",
     "team": "townsfolk",
@@ -121,6 +80,26 @@
       "Evil Ability",
       "Evil Ability",
       "Evil Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "birdwatchergoosegooseduck",
+    "name": "Birdwatcher",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn if an evil ability chose them tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/birdwatchergoosegooseduck.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/birdwatchergoosegooseduck_flip.png?v=1793588504"
+    ],
+    "flavor": "You watch from the rafters, silent and still—always hoping what you spot is just a goose, and not something more sinister.",
+    "firstNight": 15,
+    "otherNight": 26,
+    "firstNightReminder": "The Birdwatcher chooses a player. Nod if an evil ability chose them tonight.",
+    "otherNightReminder": "The Birdwatcher chooses a player. Nod if an evil ability chose them tonight.",
+    "reminders": [
+      "Watched"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -146,21 +125,22 @@
     "setup": false
   },
   {
-    "id": "birdwatchergoosegooseduck",
-    "name": "Birdwatcher",
+    "id": "coronergoosegooseduck",
+    "name": "Coroner",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn if an evil ability chose them tonight.",
+    "ability": "Each night, choose a player: if they die before you next wake, your vote counts as 2 the next day.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/birdwatchergoosegooseduck.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/birdwatchergoosegooseduck_flip.png?v=1793588504"
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/coronergoosegooseduck.png?v=1793588596",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/coronergoosegooseduck_flip.png?v=1793588596"
     ],
-    "flavor": "You watch from the rafters, silent and still—always hoping what you spot is just a goose, and not something more sinister.",
-    "firstNight": 15,
-    "otherNight": 26,
-    "firstNightReminder": "The Birdwatcher chooses a player. Nod if an evil ability chose them tonight.",
-    "otherNightReminder": "The Birdwatcher chooses a player. Nod if an evil ability chose them tonight.",
+    "flavor": "You've seen more autopsies than takeoffs. One more body and you’re ready to pass judgment.",
+    "firstNight": 12,
+    "otherNight": 23,
+    "firstNightReminder": "The Coroner chooses a player: mark them CHOSEN.",
+    "otherNightReminder": "If the CHOSEN player died tonight, mark the Coroner DOUBLED. The Coroner chooses a player.",
     "reminders": [
-      "Watched"
+      "Chosen",
+      "Doubled"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -204,24 +184,6 @@
     "setup": false
   },
   {
-    "id": "mediumgoosegooseduck",
-    "name": "Medium",
-    "team": "townsfolk",
-    "ability": "Each night*, choose good, evil, or a character type: you learn how many dead players are that.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/mediumgoosegooseduck.png?v=1793588503",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/mediumgoosegooseduck_flip.png?v=1793588502"
-    ],
-    "flavor": "You’ve plucked more than feathers — the dead whisper secrets if you listen close enough.",
-    "firstNight": 0,
-    "otherNight": 27,
-    "firstNightReminder": "",
-    "otherNightReminder": "The Medium chooses good, evil, or a character type. Give a finger signal.",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "sensorgoosegooseduck",
     "name": "Sensor",
     "team": "townsfolk",
@@ -240,24 +202,20 @@
     "setup": false
   },
   {
-    "id": "sheriffgoosegooseduck",
-    "name": "Sheriff",
+    "id": "mediumgoosegooseduck",
+    "name": "Medium",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a living player. If they are evil they die, if they are good, you both die.",
+    "ability": "Each night*, choose good, evil, or a character type: you learn how many dead players are that.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/sheriffgoosegooseduck.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/sheriffgoosegooseduck_flip.png?v=1793588503"
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/mediumgoosegooseduck.png?v=1793588503",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/mediumgoosegooseduck_flip.png?v=1793588502"
     ],
-    "flavor": "Justice honks for no duck. But shoot the wrong one, and you’ll go down quacking together.",
+    "flavor": "You’ve plucked more than feathers — the dead whisper secrets if you listen close enough.",
     "firstNight": 0,
-    "otherNight": 9,
+    "otherNight": 27,
     "firstNightReminder": "",
-    "otherNightReminder": "The Sheriff may choose a player. If evil, they die. If good, both they and the Sheriff die.",
-    "reminders": [
-      "Dead",
-      "Dead",
-      "No Ability"
-    ],
+    "otherNightReminder": "The Medium chooses good, evil, or a character type. Give a finger signal.",
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false
   },
@@ -303,6 +261,48 @@
     "setup": false
   },
   {
+    "id": "sheriffgoosegooseduck",
+    "name": "Sheriff",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a living player. If they are evil they die, if they are good, you both die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/sheriffgoosegooseduck.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/sheriffgoosegooseduck_flip.png?v=1793588503"
+    ],
+    "flavor": "Justice honks for no duck. But shoot the wrong one, and you’ll go down quacking together.",
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Sheriff may choose a player. If evil, they die. If good, both they and the Sheriff die.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "astralgoosegooseduck",
+    "name": "Astral",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, privately choose a player: you learn if they woke last night.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/astralgoosegooseduck.png?v=1793588503",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/astralgoosegooseduck_flip.png?v=1793588503"
+    ],
+    "flavor": "You drift between realms, watching for movement in the night — or just really nosy dreams.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
     "id": "lobbyistgoosegooseduck",
     "name": "Lobbyist",
     "team": "townsfolk",
@@ -325,21 +325,41 @@
     "setup": false
   },
   {
-    "id": "astralgoosegooseduck",
-    "name": "Astral",
+    "id": "stalkergoosegooseduck",
+    "name": "Stalker",
     "team": "townsfolk",
-    "ability": "Once per game, during the day, privately choose a player: you learn if they woke last night.",
+    "ability": "On your 1st night, select a player. When they die, you learn their alignment that night.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/astralgoosegooseduck.png?v=1793588503",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/astralgoosegooseduck_flip.png?v=1793588503"
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/stalkergoosegooseduck.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/stalkergoosegooseduck_flip.png?v=1793588503"
     ],
-    "flavor": "You drift between realms, watching for movement in the night — or just really nosy dreams.",
+    "flavor": "You’re always watching. Quiet. Creeping. Just close enough to catch a killer mid-swoop— but never too close to become the prey.",
+    "firstNight": 11,
+    "otherNight": 31,
+    "firstNightReminder": "The Stalker chooses a player: mark them STALKED.",
+    "otherNightReminder": "If the STALKED player died, show a thumbs up (good) or down (evil).",
+    "reminders": [
+      "Stalked"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "survivalistgoosegooseduck",
+    "name": "Survivalist",
+    "team": "townsfolk",
+    "ability": "If you are alive in the final 3, your vote counts as 2.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/survivalistgoosegooseduck.png?v=1793588574",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/survivalistgoosegooseduck_flip.png?v=1793588574"
+    ],
+    "flavor": "You've made it this far by eating berries, hiding in bushes, and trusting absolutely no one.",
     "firstNight": 0,
     "otherNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [
-      "No Ability"
+      "Doubled"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -403,26 +423,6 @@
     "setup": false
   },
   {
-    "id": "survivalistgoosegooseduck",
-    "name": "Survivalist",
-    "team": "townsfolk",
-    "ability": "If you are alive in the final 3, your vote counts as 2.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/survivalistgoosegooseduck.png?v=1793588574",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/survivalistgoosegooseduck_flip.png?v=1793588574"
-    ],
-    "flavor": "You've made it this far by eating berries, hiding in bushes, and trusting absolutely no one.",
-    "firstNight": 0,
-    "otherNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [
-      "Doubled"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "lovergoosegooseduck",
     "name": "Lover",
     "team": "outsider",
@@ -442,6 +442,34 @@
     "remindersGlobal": [
       "Lover"
     ],
+    "setup": false
+  },
+  {
+    "id": "pigeongoosegooseduck",
+    "name": "Pigeon",
+    "team": "outsider",
+    "ability": "Each night*, your alignment changes if you voted on every living person (not yourself) in the previous day.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/pigeongoosegooseduck.png?v=1793588503",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/pigeongoosegooseduck_flip.png?v=1793588503"
+    ],
+    "flavor": "One vote at a time, you’re infecting the game with confusion. When the spread is complete... who are you really?",
+    "firstNight": 0,
+    "otherNight": 3,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Pigeon voted on every other living player today, they change alignment: show a thumbs up (good) or down (evil).",
+    "reminders": [
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Changed"
+    ],
+    "remindersGlobal": [],
     "setup": false
   },
   {
@@ -480,34 +508,6 @@
         "name": "replace-character"
       }
     ]
-  },
-  {
-    "id": "pigeongoosegooseduck",
-    "name": "Pigeon",
-    "team": "outsider",
-    "ability": "Each night*, your alignment changes if you voted on every living person (not yourself) in the previous day.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/pigeongoosegooseduck.png?v=1793588503",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/pigeongoosegooseduck_flip.png?v=1793588503"
-    ],
-    "flavor": "One vote at a time, you’re infecting the game with confusion. When the spread is complete... who are you really?",
-    "firstNight": 0,
-    "otherNight": 3,
-    "firstNightReminder": "",
-    "otherNightReminder": "If the Pigeon voted on every other living player today, they change alignment: show a thumbs up (good) or down (evil).",
-    "reminders": [
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Changed"
-    ],
-    "remindersGlobal": [],
-    "setup": false
   },
   {
     "id": "dodogoosegooseduck",
@@ -573,27 +573,6 @@
     "setup": false
   },
   {
-    "id": "serialkillergoosegooseduck",
-    "name": "Serial Killer",
-    "team": "minion",
-    "ability": "On night 1, choose a player: they become a Goose. If they are executed, the next night you choose a player to kill and a new target. [-1 Outsider]",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/serialkillergoosegooseduck.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/serialkillergoosegooseduck_flip.png?v=1793588503"
-    ],
-    "flavor": "You smile politely. Then you twist the knife. The blood doesn’t bother you anymore.",
-    "firstNight": 5,
-    "otherNight": 8,
-    "firstNightReminder": "The Serial Killer chooses a player: mark them TARGET and IS A GOOSE.",
-    "otherNightReminder": "If the TARGET was executed today, the Serial Killer chooses a player to kill, then a new TARGET.",
-    "reminders": [
-      "Target",
-      "Dead"
-    ],
-    "remindersGlobal": [],
-    "setup": true
-  },
-  {
     "id": "preachergoosegooseduck",
     "name": "Preacher",
     "team": "minion",
@@ -635,21 +614,43 @@
     "setup": false
   },
   {
-    "id": "professionalgoosegooseduck",
-    "name": "Professional",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die, but appear alive until tomorrow night.",
+    "id": "serialkillergoosegooseduck",
+    "name": "Serial Killer",
+    "team": "minion",
+    "ability": "On night 1, choose a player: they become a Goose. If they are executed, the next night you choose a player to kill and a new target. [-1 Outsider]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/professionalgoosegooseduck.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/professionalgoosegooseduck_flip.png?v=1793588502"
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/serialkillergoosegooseduck.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/serialkillergoosegooseduck_flip.png?v=1793588503"
     ],
-    "flavor": "No one even sees you kill. They’re still walking around — poisoned, fake-smiling, and dying slowly.",
-    "firstNight": 0,
-    "otherNight": 12,
-    "firstNightReminder": "",
-    "otherNightReminder": "The IS DEAD player now dies publicly. The Professional chooses a player: mark them IS DEAD (they appear alive tomorrow).",
+    "flavor": "You smile politely. Then you twist the knife. The blood doesn’t bother you anymore.",
+    "firstNight": 5,
+    "otherNight": 8,
+    "firstNightReminder": "The Serial Killer chooses a player: mark them TARGET and IS A GOOSE.",
+    "otherNightReminder": "If the TARGET was executed today, the Serial Killer chooses a player to kill, then a new TARGET.",
     "reminders": [
-      "Is Dead",
+      "Target",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "cupidgoosegooseduck",
+    "name": "Cupid",
+    "team": "demon",
+    "ability": "Each night, choose 2 players, one will die the following night. If either are executed, they both die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/cupidgoosegooseduck.png?v=1793588503",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/cupidgoosegooseduck_flip.png?v=1793588503"
+    ],
+    "flavor": "Love is a weapon. Two hearts, one bullet. You’ll make them fall — then make them fall harder.",
+    "firstNight": 7,
+    "otherNight": 13,
+    "firstNightReminder": "The Cupid chooses 2 players: mark them CONNECTED.",
+    "otherNightReminder": "If neither CONNECTED player was executed, one of them dies. The Cupid chooses 2 players: mark them CONNECTED.",
+    "reminders": [
+      "Connected",
+      "Connected",
       "Dead"
     ],
     "remindersGlobal": [],
@@ -685,22 +686,21 @@
     ]
   },
   {
-    "id": "cupidgoosegooseduck",
-    "name": "Cupid",
+    "id": "professionalgoosegooseduck",
+    "name": "Professional",
     "team": "demon",
-    "ability": "Each night, choose 2 players, one will die the following night. If either are executed, they both die.",
+    "ability": "Each night*, choose a player: they die, but appear alive until tomorrow night.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/cupidgoosegooseduck.png?v=1793588503",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/cupidgoosegooseduck_flip.png?v=1793588503"
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/professionalgoosegooseduck.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/professionalgoosegooseduck_flip.png?v=1793588502"
     ],
-    "flavor": "Love is a weapon. Two hearts, one bullet. You’ll make them fall — then make them fall harder.",
-    "firstNight": 7,
-    "otherNight": 13,
-    "firstNightReminder": "The Cupid chooses 2 players: mark them CONNECTED.",
-    "otherNightReminder": "If neither CONNECTED player was executed, one of them dies. The Cupid chooses 2 players: mark them CONNECTED.",
+    "flavor": "No one even sees you kill. They’re still walking around — poisoned, fake-smiling, and dying slowly.",
+    "firstNight": 0,
+    "otherNight": 12,
+    "firstNightReminder": "",
+    "otherNightReminder": "The IS DEAD player now dies publicly. The Professional chooses a player: mark them IS DEAD (they appear alive tomorrow).",
     "reminders": [
-      "Connected",
-      "Connected",
+      "Is Dead",
       "Dead"
     ],
     "remindersGlobal": [],
@@ -734,28 +734,6 @@
         "name": "replace-character"
       }
     ]
-  },
-  {
-    "id": "vigilantegoosegooseduck",
-    "name": "Vigilante",
-    "team": "traveller",
-    "ability": "Once per game, at night, after your 2nd day: choose a player who voted today on someone of your alignment. If they are the opposite alignment, they die.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck.png?v=1793588503",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck_good.png?v=1793588502",
-      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck_evil.png?v=1793588503"
-    ],
-    "flavor": "You don’t wait for orders. You wait for justification. Just give you one reason and you’ll pull the trigger.",
-    "firstNight": 0,
-    "otherNight": 17,
-    "firstNightReminder": "",
-    "otherNightReminder": "The Vigilante may choose a player who voted today on someone of the Vigilante's alignment. If that player is the opposite alignment, they die.",
-    "reminders": [
-      "No Ability",
-      "Dead"
-    ],
-    "remindersGlobal": [],
-    "setup": false
   },
   {
     "id": "locksmithgoosegooseduck",
@@ -798,6 +776,28 @@
       "Belly",
       "Belly",
       "Escaped"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "vigilantegoosegooseduck",
+    "name": "Vigilante",
+    "team": "traveller",
+    "ability": "Once per game, at night, after your 2nd day: choose a player who voted today on someone of your alignment. If they are the opposite alignment, they die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck.png?v=1793588503",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck_good.png?v=1793588502",
+      "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/vigilantegoosegooseduck_evil.png?v=1793588503"
+    ],
+    "flavor": "You don’t wait for orders. You wait for justification. Just give you one reason and you’ll pull the trigger.",
+    "firstNight": 0,
+    "otherNight": 17,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Vigilante may choose a player who voted today on someone of the Vigilante's alignment. If that player is the opposite alignment, they die.",
+    "reminders": [
+      "No Ability",
+      "Dead"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -846,24 +846,6 @@
     "setup": false
   },
   {
-    "id": "assassingoosegooseduck",
-    "name": "Assassin",
-    "team": "fabled",
-    "ability": "Once per game, during the day, a player may publicly guess every Goose and who each thinks they are. If all correct, they choose a player: that player dies.",
-    "image": "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/assassingoosegooseduck.png?v=1793588502",
-    "flavor": "One strike, one chance. Know your prey, or perish in shame.",
-    "firstNight": 0,
-    "otherNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [
-      "Used",
-      "Dead"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "silencergoosegooseduck",
     "name": "Silencer",
     "team": "fabled",
@@ -883,6 +865,24 @@
       "Honk",
       "Honk",
       "Honk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "assassingoosegooseduck",
+    "name": "Assassin",
+    "team": "fabled",
+    "ability": "Once per game, during the day, a player may publicly guess every Goose and who each thinks they are. If all correct, they choose a player: that player dies.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/goose-goose-duck/assassingoosegooseduck.png?v=1793588502",
+    "flavor": "One strike, one chance. Know your prey, or perish in shame.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Used",
+      "Dead"
     ],
     "remindersGlobal": [],
     "setup": false
