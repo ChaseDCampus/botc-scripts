@@ -46,76 +46,6 @@
     "logo": "https://chasedcampus.github.io/botc-scripts/i/down-bad/_logo.png?v=1793476981"
   },
   {
-    "id": "gaydar",
-    "name": "Gaydar",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): you learn how many of their alive neighbors are evil.",
-    "flavor": "Beep. Beep. Beep-beep-beep. Oh honey, it's coming from inside the brunch.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/gaydar.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/gaydar_flip.png?v=1793489115"
-    ],
-    "firstNight": 9,
-    "firstNightReminder": "The Gaydar chooses a player. Show how many of that player's 2 alive neighbors are evil (0, 1 or 2).",
-    "otherNight": 16,
-    "otherNightReminder": "The Gaydar chooses a player. Show how many of that player's 2 alive neighbors are evil (0, 1 or 2).",
-    "reminders": [],
-    "setup": false
-  },
-  {
-    "id": "vers",
-    "name": "Vers",
-    "team": "townsfolk",
-    "ability": "Each night, choose to top or bottom. Top: choose a player: you learn if they are a Townsfolk. Bottom: you learn which players chose you tonight.",
-    "flavor": "Top, bottom, I'm easy. Some nights I go out and find out about you. Some nights I lie back and see who comes to me.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/vers.png?v=1793489115",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/vers_flip.png?v=1793489115"
-    ],
-    "firstNight": 10,
-    "firstNightReminder": "The Vers points up (top) or down (bottom). Top: they choose a player; nod if that player is a Townsfolk. Bottom: point to every player who chose the Vers with an ability tonight, or shake your head if no one did.",
-    "otherNight": 17,
-    "otherNightReminder": "If the Vers died tonight, do not wake them. The Vers points up (top) or down (bottom). Top: they choose a player; nod if that player is a Townsfolk. Bottom: point to every player who chose the Vers with an ability tonight, or shake your head.",
-    "reminders": [],
-    "setup": false
-  },
-  {
-    "id": "himbo",
-    "name": "Himbo",
-    "team": "townsfolk",
-    "ability": "Each day, you may publicly choose a player: if they do not vote today, you learn their character tonight.",
-    "flavor": "Hey, could you just, like, not vote today? For me? ...Aw, thanks, man. You're the best. So what's your deal, anyway?",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/himbo.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/himbo_flip.png?v=1793489115"
-    ],
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 14,
-    "otherNightReminder": "If the *ASKED NICELY* player did not vote today, show the Himbo that player's character token. Remove the token.",
-    "reminders": [
-      "Asked Nicely"
-    ],
-    "setup": false
-  },
-  {
-    "id": "bimbo",
-    "name": "Bimbo",
-    "team": "townsfolk",
-    "ability": "Each night*, choose 2 players: you learn both their characters, but one of them is wrong.",
-    "flavor": "Okay so you're, like, the Gaydar? And you're the Demon? No wait, other way round. One of those is totally right though. Love that for us.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bimbo.png?v=1793489115",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bimbo_flip.png?v=1793489115"
-    ],
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 18,
-    "otherNightReminder": "The Bimbo chooses 2 players. Show 2 character tokens, one for each player: one is that player's true character, the other is false.",
-    "reminders": [],
-    "setup": false
-  },
-  {
     "id": "mommy",
     "name": "Mommy",
     "team": "townsfolk",
@@ -136,6 +66,114 @@
     "setup": false
   },
   {
+    "id": "sugarbaby",
+    "name": "Sugar Baby",
+    "team": "townsfolk",
+    "ability": "You start knowing a good player: your Daddy. While your Daddy is alive, you are safe from the Demon.",
+    "flavor": "I don't worry about things like 'rent' or 'being murdered in the night.' Daddy handles all of that.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/sugarbaby.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/sugarbaby_flip.png?v=1793489115"
+    ],
+    "firstNight": 7,
+    "firstNightReminder": "Point to a good player :reminder: While that player is alive, the Sugar Baby can't be killed by the Demon.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Daddy"
+    ],
+    "setup": false
+  },
+  {
+    "id": "butch",
+    "name": "Butch",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): they are sober & healthy until dusk.",
+    "flavor": "Give me ten minutes and a Phillips head. You'll be thinking straight by... sorry, poor choice of words. You'll be thinking clearly by morning.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/butch.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/butch_flip.png?v=1793489115"
+    ],
+    "firstNight": 3,
+    "firstNightReminder": "The Butch chooses a player :reminder: Until dusk they can't be drunk or poisoned.",
+    "otherNight": 1,
+    "otherNightReminder": "Remove yesterday's token. The Butch chooses a player :reminder: Until dusk they can't be drunk or poisoned.",
+    "reminders": [
+      "Fixed"
+    ],
+    "setup": false
+  },
+  {
+    "id": "gaydar",
+    "name": "Gaydar",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): you learn how many of their alive neighbors are evil.",
+    "flavor": "Beep. Beep. Beep-beep-beep. Oh honey, it's coming from inside the brunch.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/gaydar.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/gaydar_flip.png?v=1793489115"
+    ],
+    "firstNight": 9,
+    "firstNightReminder": "The Gaydar chooses a player. Show how many of that player's 2 alive neighbors are evil (0, 1 or 2).",
+    "otherNight": 16,
+    "otherNightReminder": "The Gaydar chooses a player. Show how many of that player's 2 alive neighbors are evil (0, 1 or 2).",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "baddie",
+    "name": "Baddie",
+    "team": "townsfolk",
+    "ability": "Each night, if 2 or more players choose you with their abilities, you gain an extra life (max 1): the next time you would die, you don't.",
+    "flavor": "Everybody wants a piece of me. Go ahead, keep looking. Every one of you who can't take your eyes off me is one more reason I'm still standing.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/baddie.png?v=1793490194",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/baddie_flip.png?v=1793490194"
+    ],
+    "firstNight": 12,
+    "firstNightReminder": "At the end of the night: if 2 or more players chose the Baddie with their abilities tonight (good or evil), she gains an extra life :reminder: It does not save her from tonight's deaths.",
+    "otherNight": 20,
+    "otherNightReminder": "At the end of the night: if 2 or more players chose the Baddie with their abilities tonight (good or evil), she gains an extra life :reminder: It does not save her from tonight's deaths. When she would die, remove the token instead.",
+    "reminders": [
+      "Extra Life"
+    ],
+    "setup": false
+  },
+  {
+    "id": "vers",
+    "name": "Vers",
+    "team": "townsfolk",
+    "ability": "Each night, choose to top or bottom. Top: choose a player: you learn if they are a Townsfolk. Bottom: you learn which players chose you tonight.",
+    "flavor": "Top, bottom, I'm easy. Some nights I go out and find out about you. Some nights I lie back and see who comes to me.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/vers.png?v=1793489115",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/vers_flip.png?v=1793489115"
+    ],
+    "firstNight": 10,
+    "firstNightReminder": "The Vers points up (top) or down (bottom). Top: they choose a player; nod if that player is a Townsfolk. Bottom: point to every player who chose the Vers with an ability tonight, or shake your head if no one did.",
+    "otherNight": 17,
+    "otherNightReminder": "If the Vers died tonight, do not wake them. The Vers points up (top) or down (bottom). Top: they choose a player; nod if that player is a Townsfolk. Bottom: point to every player who chose the Vers with an ability tonight, or shake your head.",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "bimbo",
+    "name": "Bimbo",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 players: you learn both their characters, but one of them is wrong.",
+    "flavor": "Okay so you're, like, the Gaydar? And you're the Demon? No wait, other way round. One of those is totally right though. Love that for us.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bimbo.png?v=1793489115",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bimbo_flip.png?v=1793489115"
+    ],
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 18,
+    "otherNightReminder": "The Bimbo chooses 2 players. Show 2 character tokens, one for each player: one is that player's true character, the other is false.",
+    "reminders": [],
+    "setup": false
+  },
+  {
     "id": "simp",
     "name": "Simp",
     "team": "townsfolk",
@@ -151,6 +189,25 @@
     "otherNightReminder": "The Simp chooses a player :reminder: Show the Simp that player's character token. Wake the *CRUSH*, show them the Simp token and point to the Simp.",
     "reminders": [
       "Crush"
+    ],
+    "setup": false
+  },
+  {
+    "id": "himbo",
+    "name": "Himbo",
+    "team": "townsfolk",
+    "ability": "Each day, you may publicly choose a player: if they do not vote today, you learn their character tonight.",
+    "flavor": "Hey, could you just, like, not vote today? For me? ...Aw, thanks, man. You're the best. So what's your deal, anyway?",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/himbo.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/himbo_flip.png?v=1793489115"
+    ],
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 14,
+    "otherNightReminder": "If the *ASKED NICELY* player did not vote today, show the Himbo that player's character token. Remove the token.",
+    "reminders": [
+      "Asked Nicely"
     ],
     "setup": false
   },
@@ -180,25 +237,6 @@
     ]
   },
   {
-    "id": "baddie",
-    "name": "Baddie",
-    "team": "townsfolk",
-    "ability": "Each night, if 2 or more players choose you with their abilities, you gain an extra life (max 1): the next time you would die, you don't.",
-    "flavor": "Everybody wants a piece of me. Go ahead, keep looking. Every one of you who can't take your eyes off me is one more reason I'm still standing.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/baddie.png?v=1793490194",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/baddie_flip.png?v=1793490194"
-    ],
-    "firstNight": 12,
-    "firstNightReminder": "At the end of the night: if 2 or more players chose the Baddie with their abilities tonight (good or evil), she gains an extra life :reminder: It does not save her from tonight's deaths.",
-    "otherNight": 20,
-    "otherNightReminder": "At the end of the night: if 2 or more players chose the Baddie with their abilities tonight (good or evil), she gains an extra life :reminder: It does not save her from tonight's deaths. When she would die, remove the token instead.",
-    "reminders": [
-      "Extra Life"
-    ],
-    "setup": false
-  },
-  {
     "id": "egg",
     "name": "Egg",
     "team": "townsfolk",
@@ -224,63 +262,6 @@
     ]
   },
   {
-    "id": "understudy",
-    "name": "Understudy",
-    "team": "townsfolk",
-    "ability": "When the 1st Townsfolk dies, you gain their ability.",
-    "flavor": "I know every line of her part. Every single line. I'm not saying I want something to happen to her. I'm saying I'm ready.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/understudy.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/understudy_flip.png?v=1793489114"
-    ],
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 13,
-    "otherNightReminder": "If the first Townsfolk to die has died, and the Understudy has not been told: wake the Understudy and show that character's token. They have that ability from now on :reminder:",
-    "reminders": [
-      "Understudy For"
-    ],
-    "setup": false
-  },
-  {
-    "id": "sugarbaby",
-    "name": "Sugar Baby",
-    "team": "townsfolk",
-    "ability": "You start knowing a good player: your Daddy. While your Daddy is alive, you are safe from the Demon.",
-    "flavor": "I don't worry about things like 'rent' or 'being murdered in the night.' Daddy handles all of that.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/sugarbaby.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/sugarbaby_flip.png?v=1793489115"
-    ],
-    "firstNight": 7,
-    "firstNightReminder": "Point to a good player :reminder: While that player is alive, the Sugar Baby can't be killed by the Demon.",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Daddy"
-    ],
-    "setup": false
-  },
-  {
-    "id": "closetcase",
-    "name": "Closet Case",
-    "team": "townsfolk",
-    "ability": "Until you come out (nominate or vote), you are safe from the Demon. The night you come out, you learn 1 evil player.",
-    "flavor": "I'm fine in here, thanks. It's cozy. I'll come out when I'm ready, and you will all be very supportive, and at least one of you will say you always knew.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/closetcase.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/closetcase_flip.png?v=1793489115"
-    ],
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 15,
-    "otherNightReminder": "If the Closet Case came out today (marked *OUT*) and has not been told: point to 1 evil player.",
-    "reminders": [
-      "Out"
-    ],
-    "setup": false
-  },
-  {
     "id": "bear",
     "name": "Bear",
     "team": "townsfolk",
@@ -304,39 +285,41 @@
     ]
   },
   {
-    "id": "butch",
-    "name": "Butch",
+    "id": "understudy",
+    "name": "Understudy",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): they are sober & healthy until dusk.",
-    "flavor": "Give me ten minutes and a Phillips head. You'll be thinking straight by... sorry, poor choice of words. You'll be thinking clearly by morning.",
+    "ability": "When the 1st Townsfolk dies, you gain their ability.",
+    "flavor": "I know every line of her part. Every single line. I'm not saying I want something to happen to her. I'm saying I'm ready.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/butch.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/butch_flip.png?v=1793489115"
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/understudy.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/understudy_flip.png?v=1793489114"
     ],
-    "firstNight": 3,
-    "firstNightReminder": "The Butch chooses a player :reminder: Until dusk they can't be drunk or poisoned.",
-    "otherNight": 1,
-    "otherNightReminder": "Remove yesterday's token. The Butch chooses a player :reminder: Until dusk they can't be drunk or poisoned.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "If the first Townsfolk to die has died, and the Understudy has not been told: wake the Understudy and show that character's token. They have that ability from now on :reminder:",
     "reminders": [
-      "Fixed"
+      "Understudy For"
     ],
     "setup": false
   },
   {
-    "id": "bipanic",
-    "name": "Bi Panic",
-    "team": "outsider",
-    "ability": "Your alive neighbors might register as the opposite alignment, even if you are dead.",
-    "flavor": "Yes. No. Both? Please don't make me choose. I am sitting in this chair in a completely normal way and I cannot tell you two apart.",
+    "id": "closetcase",
+    "name": "Closet Case",
+    "team": "townsfolk",
+    "ability": "Until you come out (nominate or vote), you are safe from the Demon. The night you come out, you learn 1 evil player.",
+    "flavor": "I'm fine in here, thanks. It's cozy. I'll come out when I'm ready, and you will all be very supportive, and at least one of you will say you always knew.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bipanic.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bipanic_flip.png?v=1793489114"
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/closetcase.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/closetcase_flip.png?v=1793489115"
     ],
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
+    "otherNight": 15,
+    "otherNightReminder": "If the Closet Case came out today (marked *OUT*) and has not been told: point to 1 evil player.",
+    "reminders": [
+      "Out"
+    ],
     "setup": false
   },
   {
@@ -379,6 +362,23 @@
     "setup": false
   },
   {
+    "id": "bipanic",
+    "name": "Bi Panic",
+    "team": "outsider",
+    "ability": "Your alive neighbors might register as the opposite alignment, even if you are dead.",
+    "flavor": "Yes. No. Both? Please don't make me choose. I am sitting in this chair in a completely normal way and I cannot tell you two apart.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bipanic.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/bipanic_flip.png?v=1793489114"
+    ],
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
     "id": "badinfluence",
     "name": "Bad Influence",
     "team": "outsider",
@@ -417,6 +417,31 @@
       "Girlbossed"
     ],
     "setup": false
+  },
+  {
+    "id": "fuckboy",
+    "name": "Fuck Boy",
+    "team": "minion",
+    "ability": "Once per game, at night*, choose a player & a not-in-play Outsider: if they are a Townsfolk, they become that Outsider.",
+    "flavor": "u up? ...Come on, one night with me is not going to change you. Okay, it changed you. Anyway, I'm not really looking for anything serious right now.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/fuckboy.png?v=1793489115",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/fuckboy_flip.png?v=1793489114"
+    ],
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 3,
+    "otherNightReminder": "If the Fuck Boy has not used their ability, they may choose a player and point to a not-in-play Outsider. If the player is a Townsfolk, swap their token, wake them and show *YOU ARE* and the new token :reminder:",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "catfish",
@@ -463,55 +488,25 @@
     ]
   },
   {
-    "id": "fuckboy",
-    "name": "Fuck Boy",
-    "team": "minion",
-    "ability": "Once per game, at night*, choose a player & a not-in-play Outsider: if they are a Townsfolk, they become that Outsider.",
-    "flavor": "u up? ...Come on, one night with me is not going to change you. Okay, it changed you. Anyway, I'm not really looking for anything serious right now.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/fuckboy.png?v=1793489115",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/fuckboy_flip.png?v=1793489114"
-    ],
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 3,
-    "otherNightReminder": "If the Fuck Boy has not used their ability, they may choose a player and point to a not-in-play Outsider. If the player is a Townsfolk, swap their token, wake them and show *YOU ARE* and the new token :reminder:",
-    "reminders": [
-      "No Ability"
-    ],
-    "setup": false,
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
-    ]
-  },
-  {
-    "id": "twink",
-    "name": "Twink",
+    "id": "maneater",
+    "name": "Maneater",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If you die by execution, twink death: the player who nominated you becomes an evil Demon of a different type. [-1 Outsider]",
-    "flavor": "I am NOT thirty. I am twenty-nine and three quarters. And if you people put me out to pasture, one of you is inheriting all of this.",
+    "ability": "Each night*, choose a player: they die, & their alive neighbors are gagged (drunk) until dusk.",
+    "flavor": "She only comes out at night. She chewed him up, spat him out, and the people sitting either side of him have not managed a full sentence since.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/twink.png?v=1793489115",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/twink_flip.png?v=1793489115"
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/maneater.png?v=1793489114",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/maneater_flip.png?v=1793489115"
     ],
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 6,
-    "otherNightReminder": "The Twink chooses a player: they die :reminder: If the Twink was executed today (twink death): swap the *NOMINATOR*'s token for a different Demon (your choice), wake them, show *YOU ARE*, the new Demon token and a thumbs-down. They kill tonight. The game does not end.",
+    "otherNight": 9,
+    "otherNightReminder": "Remove yesterday's *GAGGED* tokens. The Maneater chooses a player: they die :reminder: Their 2 alive neighbors are drunk until dusk :reminder: :reminder:",
     "reminders": [
       "Dead",
-      "Nominator"
+      "Gagged",
+      "Gagged"
     ],
-    "setup": true,
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
-    ]
+    "setup": false
   },
   {
     "id": "diva",
@@ -555,42 +550,30 @@
     "setup": true
   },
   {
-    "id": "maneater",
-    "name": "Maneater",
+    "id": "twink",
+    "name": "Twink",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die, & their alive neighbors are gagged (drunk) until dusk.",
-    "flavor": "She only comes out at night. She chewed him up, spat him out, and the people sitting either side of him have not managed a full sentence since.",
+    "ability": "Each night*, choose a player: they die. If you die by execution, twink death: the player who nominated you becomes an evil Demon of a different type. [-1 Outsider]",
+    "flavor": "I am NOT thirty. I am twenty-nine and three quarters. And if you people put me out to pasture, one of you is inheriting all of this.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/maneater.png?v=1793489114",
-      "https://chasedcampus.github.io/botc-scripts/i/down-bad/maneater_flip.png?v=1793489115"
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/twink.png?v=1793489115",
+      "https://chasedcampus.github.io/botc-scripts/i/down-bad/twink_flip.png?v=1793489115"
     ],
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 9,
-    "otherNightReminder": "Remove yesterday's *GAGGED* tokens. The Maneater chooses a player: they die :reminder: Their 2 alive neighbors are drunk until dusk :reminder: :reminder:",
+    "otherNight": 6,
+    "otherNightReminder": "The Twink chooses a player: they die :reminder: If the Twink was executed today (twink death): swap the *NOMINATOR*'s token for a different Demon (your choice), wake them, show *YOU ARE*, the new Demon token and a thumbs-down. They kill tonight. The game does not end.",
     "reminders": [
       "Dead",
-      "Gagged",
-      "Gagged"
+      "Nominator"
     ],
-    "setup": false
-  },
-  {
-    "id": "prideparade",
-    "name": "Pride Parade",
-    "team": "fabled",
-    "ability": "Once per game, during the day, the town may hold a parade: every living player publicly says what character they are. Nobody may be executed today.",
-    "image": "https://chasedcampus.github.io/botc-scripts/i/down-bad/prideparade.png?v=1793578534",
-    "flavor": "Everyone's out, loud, and lying about at least one thing.",
-    "firstNight": 0,
-    "otherNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [
-      "Used"
-    ],
-    "remindersGlobal": [],
-    "setup": false
+    "setup": true,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "dragqueen",
@@ -609,6 +592,23 @@
     "otherNightReminder": "",
     "reminders": [
       "Read"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "prideparade",
+    "name": "Pride Parade",
+    "team": "fabled",
+    "ability": "Once per game, during the day, the town may hold a parade: every living player publicly says what character they are. Nobody may be executed today.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/down-bad/prideparade.png?v=1793578534",
+    "flavor": "Everyone's out, loud, and lying about at least one thing.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Used"
     ],
     "remindersGlobal": [],
     "setup": false
