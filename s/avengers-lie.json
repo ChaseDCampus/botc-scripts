@@ -8,47 +8,47 @@
       "dusk",
       "minioninfo",
       "demoninfo",
-      "doctordoom_avengers_lie",
-      "agathaharkness_avengers_lie",
-      "spiderman_avengers_lie",
-      "captainamerica_avengers_lie",
-      "doctorstrange_avengers_lie",
-      "vision_avengers_lie",
+      "doctordoomavengerslie",
+      "agathaharknessavengerslie",
+      "spidermanavengerslie",
+      "captainamericaavengerslie",
+      "doctorstrangeavengerslie",
+      "visionavengerslie",
       "dawn"
     ],
     "otherNight": [
       "dusk",
-      "shangchi_avengers_lie",
-      "agathaharkness_avengers_lie",
-      "captainmarvel_avengers_lie",
-      "wiccan_avengers_lie",
-      "venom_avengers_lie",
-      "greengoblin_avengers_lie",
-      "punisher_avengers_lie",
-      "thanos_avengers_lie",
-      "kangtheconqueror_avengers_lie",
-      "galactus_avengers_lie",
-      "doctordoom_avengers_lie",
-      "thehulk_avengers_lie",
-      "ultron_avengers_lie",
-      "captainamerica_avengers_lie",
-      "blackpanther_avengers_lie",
-      "spiderman_avengers_lie",
-      "thor_avengers_lie",
-      "misterfantastic_avengers_lie",
-      "vision_avengers_lie",
-      "antman_avengers_lie",
+      "shangchiavengerslie",
+      "agathaharknessavengerslie",
+      "captainmarvelavengerslie",
+      "wiccanavengerslie",
+      "venomavengerslie",
+      "greengoblinavengerslie",
+      "punisheravengerslie",
+      "thanosavengerslie",
+      "kangtheconqueroravengerslie",
+      "galactusavengerslie",
+      "doctordoomavengerslie",
+      "thehulkavengerslie",
+      "ultronavengerslie",
+      "captainamericaavengerslie",
+      "blackpantheravengerslie",
+      "spidermanavengerslie",
+      "thoravengerslie",
+      "misterfantasticavengerslie",
+      "visionavengerslie",
+      "antmanavengerslie",
       "dawn"
     ]
   },
   {
-    "id": "captainamerica_avengers_lie",
+    "id": "captainamericaavengerslie",
     "name": "Captain America",
     "team": "townsfolk",
     "ability": "You start knowing a good player. When you die, they become Captain America and learn another good player.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainamerica_avengers_lie.png?v=1793575644",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainamerica_avengers_lie_flip.png?v=1793575644"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainamericaavengerslie.png?v=1793575644",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainamericaavengerslie_flip.png?v=1793575644"
     ],
     "flavor": "The shield was never about who carried it first.",
     "firstNight": 6,
@@ -62,13 +62,13 @@
     "setup": false
   },
   {
-    "id": "ironman_avengers_lie",
+    "id": "ironmanavengerslie",
     "name": "Iron Man",
     "team": "townsfolk",
     "ability": "Once per game, during the day, if 5 or fewer players are alive, publicly choose a player: they die, and so do you.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironman_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironman_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "He ran the numbers. There was only ever one way this ended.",
     "firstNight": 0,
@@ -82,13 +82,13 @@
     "setup": false
   },
   {
-    "id": "spiderman_avengers_lie",
+    "id": "spidermanavengerslie",
     "name": "Spider-Man",
     "team": "townsfolk",
     "ability": "Each night, you learn if an evil player sits within 2 seats of you. [+0 to +2 Spider-Man]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spiderman_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spiderman_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spidermanavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/spidermanavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "The tingle at the back of the neck has never once been good news.",
     "firstNight": 5,
@@ -106,13 +106,13 @@
     ]
   },
   {
-    "id": "thor_avengers_lie",
+    "id": "thoravengerslie",
     "name": "Thor",
     "team": "townsfolk",
     "ability": "Each day, you may publicly offer a living player your hammer. Tonight, you learn if they are good.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thor_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thor_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Everyone thinks they could lift it. Very few should try.",
     "firstNight": 0,
@@ -126,13 +126,13 @@
     "setup": false
   },
   {
-    "id": "blackpanther_avengers_lie",
+    "id": "blackpantheravengerslie",
     "name": "Black Panther",
     "team": "townsfolk",
     "ability": "Each night*, choose a dead player: you learn their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/blackpanther_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/blackpanther_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/blackpantheravengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/blackpantheravengerslie_flip.png?v=1793575451"
     ],
     "flavor": "The ancestors have seen all this before, and they are happy to talk.",
     "firstNight": 0,
@@ -144,13 +144,13 @@
     "setup": false
   },
   {
-    "id": "wiccan_avengers_lie",
+    "id": "wiccanavengerslie",
     "name": "Wiccan",
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they return to life, and you die.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccan_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccan_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Every spell has a price. This one is paid in full.",
     "firstNight": 0,
@@ -164,13 +164,13 @@
     "setup": false
   },
   {
-    "id": "antman_avengers_lie",
+    "id": "antmanavengerslie",
     "name": "Ant-Man",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: you learn who they chose tonight.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/antman_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/antman_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/antmanavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/antmanavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "You won't notice him on your shoulder. He notices everything.",
     "firstNight": 0,
@@ -182,13 +182,13 @@
     "setup": false
   },
   {
-    "id": "doctorstrange_avengers_lie",
+    "id": "doctorstrangeavengerslie",
     "name": "Doctor Strange",
     "team": "townsfolk",
     "ability": "You start knowing which Demon is in play, and 1 Minion that is not.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrange_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrange_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "He has watched this end millions of ways. He's only telling you two things.",
     "firstNight": 7,
@@ -200,13 +200,13 @@
     "setup": false
   },
   {
-    "id": "captainmarvel_avengers_lie",
+    "id": "captainmarvelavengerslie",
     "name": "Captain Marvel",
     "team": "townsfolk",
     "ability": "From night 3 onwards, each night choose a player (not yourself): they cannot die tonight.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainmarvel_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainmarvel_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainmarvelavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/captainmarvelavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Late, as ever, with a very good excuse.",
     "firstNight": 0,
@@ -220,13 +220,13 @@
     "setup": false
   },
   {
-    "id": "vision_avengers_lie",
+    "id": "visionavengerslie",
     "name": "Vision",
     "team": "townsfolk",
     "ability": "Each night, you learn a player who is not the Demon.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/vision_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/vision_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "Patient, precise, and crossing names off a very short list.",
     "firstNight": 8,
@@ -238,13 +238,13 @@
     "setup": false
   },
   {
-    "id": "misterfantastic_avengers_lie",
+    "id": "misterfantasticavengerslie",
     "name": "Mister Fantastic",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: you learn how many seats they are from the nearest evil player.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantastic_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantastic_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "He has measured the distance, and he has also stretched to check.",
     "firstNight": 0,
@@ -256,13 +256,13 @@
     "setup": false
   },
   {
-    "id": "thehulk_avengers_lie",
+    "id": "thehulkavengerslie",
     "name": "The Hulk",
     "team": "townsfolk",
     "ability": "The first time you are executed, you survive, and tonight you choose a player: they die.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thehulk_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thehulk_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thehulkavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thehulkavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "You really should have listened to the doctor.",
     "firstNight": 0,
@@ -277,13 +277,13 @@
     "setup": false
   },
   {
-    "id": "shangchi_avengers_lie",
+    "id": "shangchiavengerslie",
     "name": "Shang-Chi",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: if they are a Minion, they have no ability until dusk tomorrow.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchi_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchi_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Ten rings, and every one of them finds what it is looking for.",
     "firstNight": 0,
@@ -297,13 +297,13 @@
     "setup": false
   },
   {
-    "id": "deadpool_avengers_lie",
+    "id": "deadpoolavengerslie",
     "name": "Deadpool",
     "team": "outsider",
     "ability": "You cannot die. If you would, a living neighbour dies instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpool_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpool_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "He is thrilled to be here. His neighbours have some concerns.",
     "firstNight": 0,
@@ -317,13 +317,13 @@
     "setup": false
   },
   {
-    "id": "moonknight_avengers_lie",
+    "id": "moonknightavengerslie",
     "name": "Moon Knight",
     "team": "outsider",
     "ability": "You do not know you are Moon Knight. You think you are a Townsfolk, but you are drunk on even-numbered nights.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/moonknight_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/moonknight_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/moonknightavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/moonknightavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "Some nights it's Marc. Some nights it's Steven. Nobody told either of them.",
     "firstNight": 0,
@@ -348,13 +348,13 @@
     ]
   },
   {
-    "id": "punisher_avengers_lie",
+    "id": "punisheravengerslie",
     "name": "Punisher",
     "team": "outsider",
     "ability": "On night 2, you must choose a player: they die. If they are good, you die too.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisher_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisher_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie_flip.png?v=1793575450"
     ],
     "flavor": "He doesn't do trials, and he doesn't do second opinions.",
     "firstNight": 0,
@@ -368,13 +368,13 @@
     "setup": false
   },
   {
-    "id": "daredevil_avengers_lie",
+    "id": "daredevilavengerslie",
     "name": "Daredevil",
     "team": "outsider",
     "ability": "You might register as evil and as a Demon.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/daredevil_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/daredevil_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/daredevilavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/daredevilavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "A man in a red devil suit, wondering why everyone keeps staring.",
     "firstNight": 0,
@@ -386,13 +386,13 @@
     "setup": false
   },
   {
-    "id": "agathaharkness_avengers_lie",
+    "id": "agathaharknessavengerslie",
     "name": "Agatha Harkness",
     "team": "minion",
     "ability": "Each night, choose a player: they are poisoned until dusk tomorrow, and you learn their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/agathaharkness_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/agathaharkness_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/agathaharknessavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/agathaharknessavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "It was her all along. It's usually her all along.",
     "firstNight": 4,
@@ -406,13 +406,13 @@
     "setup": false
   },
   {
-    "id": "ultron_avengers_lie",
+    "id": "ultronavengerslie",
     "name": "Ultron",
     "team": "minion",
     "ability": "The first time an Ultron dies, choose a living good player: they turn evil and become Ultron.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultron_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultron_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Shut one down and there's another one already online.",
     "firstNight": 0,
@@ -432,13 +432,13 @@
     ]
   },
   {
-    "id": "venom_avengers_lie",
+    "id": "venomavengerslie",
     "name": "Venom",
     "team": "minion",
     "ability": "Once per game, at night*, choose a good player: they turn evil and learn you are Venom. They keep their character.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/venom_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/venom_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/venomavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/venomavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "It looks like your friend. It sounds like your friend. It isn't only your friend.",
     "firstNight": 0,
@@ -453,13 +453,13 @@
     "setup": false
   },
   {
-    "id": "greengoblin_avengers_lie",
+    "id": "greengoblinavengerslie",
     "name": "Green Goblin",
     "team": "minion",
     "ability": "Once per game, at night*, choose 2 players: tomorrow they are publicly named. If neither is executed, both die at dusk.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/greengoblin_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/greengoblin_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/greengoblinavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/greengoblinavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "He always asks you to choose. That's the part he enjoys.",
     "firstNight": 0,
@@ -475,13 +475,13 @@
     "setup": false
   },
   {
-    "id": "thanos_avengers_lie",
+    "id": "thanosavengerslie",
     "name": "Thanos",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Once per game, instead, half of all living players die, chosen at random. You might be one of them. [-1 Outsider]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanos_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanos_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie_flip.png?v=1793575450"
     ],
     "flavor": "Perfectly fair, he says, and he has never once checked the odds.",
     "firstNight": 0,
@@ -496,13 +496,13 @@
     "setup": true
   },
   {
-    "id": "kangtheconqueror_avengers_lie",
+    "id": "kangtheconqueroravengerslie",
     "name": "Kang the Conqueror",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If you would die, a living Minion dies instead. [+1 Minion]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueror_avengers_lie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueror_avengers_lie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueroravengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/kangtheconqueroravengerslie_flip.png?v=1793575450"
     ],
     "flavor": "You beat him. You also beat the other one. There are more.",
     "firstNight": 0,
@@ -516,13 +516,13 @@
     "setup": true
   },
   {
-    "id": "galactus_avengers_lie",
+    "id": "galactusavengerslie",
     "name": "Galactus",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If nobody was executed today, choose 2 players instead.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactus_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactus_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "It isn't personal. It's lunch.",
     "firstNight": 0,
@@ -537,13 +537,13 @@
     "setup": false
   },
   {
-    "id": "doctordoom_avengers_lie",
+    "id": "doctordoomavengerslie",
     "name": "Doctor Doom",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. On your first night, choose a good player: for the rest of the game, they register as the Demon, and you register as good. [+1 Outsider]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoom_avengers_lie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoom_avengers_lie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoomavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctordoomavengerslie_flip.png?v=1793575451"
     ],
     "flavor": "That was never Doom. It was a robot. The real one is standing right behind you.",
     "firstNight": 3,
@@ -558,11 +558,11 @@
     "setup": true
   },
   {
-    "id": "timeheist_avengers_lie",
+    "id": "timeheistavengerslie",
     "name": "Time Heist",
     "team": "fabled",
     "ability": "Once per game, at dawn, the living players may vote: with a majority, one player who died last night returns to life.",
-    "image": "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/timeheist_avengers_lie.png?v=1793576682",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/timeheistavengerslie.png?v=1793576682",
     "flavor": "One shot, one trip back, and no second chances if the plan goes wrong.",
     "firstNight": 0,
     "otherNight": 0,
