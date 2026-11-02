@@ -64,7 +64,7 @@
     "id": "candlediadelosmuertos",
     "name": "Candle",
     "team": "townsfolk",
-    "ability": "Each night*, choose a living player: if they die tonight, they keep their ability while dead.",
+    "ability": "Each night*, choose a living player: if they die tonight, they keep their ability while dead. [+0 to +2 Candle]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos.png?v=1793547723",
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/candlediadelosmuertos_flip.png?v=1793547722"
@@ -79,7 +79,13 @@
       "Lit"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
   },
   {
     "id": "marigolddiadelosmuertos",
@@ -446,13 +452,19 @@
       "Is the Demon"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   {
     "id": "gatekeeperdiadelosmuertos",
     "name": "Gatekeeper",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Players you kill lose their vote, and can't regain their ability.",
+    "ability": "Each night*, choose a player: they die. Players you kill lose their vote, and can't regain their ability. [+1 Outsider]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos.png?v=1793547723",
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/gatekeeperdiadelosmuertos_flip.png?v=1793547723"
@@ -467,13 +479,13 @@
       "Claimed"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true
   },
   {
     "id": "ossuarydiadelosmuertos",
     "name": "Ossuary",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If a good player was executed today, choose 2 players instead.",
+    "ability": "Each night*, choose a player: they die. If a good player was executed today, choose 2 players instead. [-1 Outsider]",
     "image": [
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos.png?v=1793547723",
       "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/ossuarydiadelosmuertos_flip.png?v=1793547723"
@@ -486,6 +498,44 @@
     "reminders": [
       "Dead",
       "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "flowerpathdiadelosmuertos",
+    "name": "Flower Path",
+    "team": "fabled",
+    "ability": "On night 3, all dead players have their abilities as if they were alive.",
+    "image": "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/flowerpathdiadelosmuertos.png?v=1793578534",
+    "flavor": "Laid out petal by petal, so they can find their way home for one night.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Night of the dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "mariachidiadelosmuertos",
+    "name": "Mariachi",
+    "team": "traveller",
+    "ability": "Each day, you may publicly play for a dead player: if they vote today, they keep their vote.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mariachidiadelosmuertos.png?v=1793578534",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mariachidiadelosmuertos_good.png?v=1793578534",
+      "https://chasedcampus.github.io/botc-scripts/i/dia-de-los-muertos/mariachidiadelosmuertos_evil.png?v=1793578534"
+    ],
+    "flavor": "Some songs are for the living. The good ones aren't.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Serenaded"
     ],
     "remindersGlobal": [],
     "setup": false
