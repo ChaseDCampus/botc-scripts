@@ -47,26 +47,6 @@
     ]
   },
   {
-    "id": "aphroditefateofolympus",
-    "name": "Aphrodite",
-    "team": "townsfolk",
-    "ability": "On your 1st night, choose a player (not yourself): they learn who you are. If either of you dies, the other dies too.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus_flip.png?v=1793464897"
-    ],
-    "flavor": "Love is the one bond even the gods cannot cut.",
-    "firstNight": 9,
-    "otherNight": 0,
-    "firstNightReminder": "The Aphrodite chooses a player: mark them ROSE. Wake that player, show them the Aphrodite token, and point to the Aphrodite.",
-    "otherNightReminder": "",
-    "reminders": [
-      "Rose"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "hestiafateofolympus",
     "name": "Hestia",
     "team": "townsfolk",
@@ -101,6 +81,101 @@
     "firstNightReminder": "Nod if an evil player is within 2 seats of the Hermes; shake your head if not.",
     "otherNightReminder": "",
     "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "apollofateofolympus",
+    "name": "Apollo",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players: one of them gets true information tonight, if they get any.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus.png?v=1793464897",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus_flip.png?v=1793464898"
+    ],
+    "flavor": "His oracle has never lied, only been misread.",
+    "firstNight": 7,
+    "otherNight": 4,
+    "firstNightReminder": "The Apollo chooses 2 players. Mark one of them PURIFIED: their information tonight is true.",
+    "otherNightReminder": "The Apollo chooses 2 players. Mark one of them PURIFIED: their information tonight is true.",
+    "reminders": [
+      "Purified"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "herafateofolympus",
+    "name": "Hera",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players: if a Minion or Demon chose either of them tonight, you learn one of their alignments.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus_flip.png?v=1793464898"
+    ],
+    "flavor": "Queen of the gods. She notices everyone who sneaks around the palace.",
+    "firstNight": 12,
+    "otherNight": 13,
+    "firstNightReminder": "The Hera chooses 2 players. If a Minion or Demon chose either tonight, show a thumbs up or down for one of them.",
+    "otherNightReminder": "The Hera chooses 2 players. If a Minion or Demon chose either tonight, show a thumbs up or down for one of them.",
+    "reminders": [
+      "Seen",
+      "Seen"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "hephaestusfateofolympus",
+    "name": "Hephaestus",
+    "team": "townsfolk",
+    "ability": "Each night, you learn how many evil players are alive. [+0 to +2 Hephaestus. If there is more than one, one of them registers as evil]",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus_flip.png?v=1793464898"
+    ],
+    "flavor": "Forged in fire, flawed by design — one of his works is always cracked.",
+    "firstNight": 14,
+    "otherNight": 17,
+    "firstNightReminder": "Give a finger signal: the number of living evil players.",
+    "otherNightReminder": "Give a finger signal: the number of living evil players.",
+    "reminders": [
+      "Imperfection"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "demeterfateofolympus",
+    "name": "Demeter",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players (not yourself). If you choose an evil player, you lose this ability. Once you have chosen every other living good player, good wins.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus_flip.png?v=1793464897"
+    ],
+    "flavor": "She counts every seed she has sown — and every one that rotted.",
+    "firstNight": 13,
+    "otherNight": 16,
+    "firstNightReminder": "The Demeter chooses 2 players: mark them HARVESTED. If either is evil, mark the Demeter NO ABILITY.",
+    "otherNightReminder": "The Demeter chooses 2 players: mark them HARVESTED. If either is evil, mark the Demeter NO ABILITY. If every other living good player is HARVESTED, good wins.",
+    "reminders": [
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "Harvested",
+      "No Ability"
+    ],
     "remindersGlobal": [],
     "setup": false
   },
@@ -146,101 +221,6 @@
     "setup": false
   },
   {
-    "id": "demeterfateofolympus",
-    "name": "Demeter",
-    "team": "townsfolk",
-    "ability": "Each night, choose 2 players (not yourself). If you choose an evil player, you lose this ability. Once you have chosen every other living good player, good wins.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/demeterfateofolympus_flip.png?v=1793464897"
-    ],
-    "flavor": "She counts every seed she has sown — and every one that rotted.",
-    "firstNight": 13,
-    "otherNight": 16,
-    "firstNightReminder": "The Demeter chooses 2 players: mark them HARVESTED. If either is evil, mark the Demeter NO ABILITY.",
-    "otherNightReminder": "The Demeter chooses 2 players: mark them HARVESTED. If either is evil, mark the Demeter NO ABILITY. If every other living good player is HARVESTED, good wins.",
-    "reminders": [
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "Harvested",
-      "No Ability"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "hephaestusfateofolympus",
-    "name": "Hephaestus",
-    "team": "townsfolk",
-    "ability": "Each night, you learn how many evil players are alive. [+0 to +2 Hephaestus. If there is more than one, one of them registers as evil]",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/hephaestusfateofolympus_flip.png?v=1793464898"
-    ],
-    "flavor": "Forged in fire, flawed by design — one of his works is always cracked.",
-    "firstNight": 14,
-    "otherNight": 17,
-    "firstNightReminder": "Give a finger signal: the number of living evil players.",
-    "otherNightReminder": "Give a finger signal: the number of living evil players.",
-    "reminders": [
-      "Imperfection"
-    ],
-    "remindersGlobal": [],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
-    ]
-  },
-  {
-    "id": "herafateofolympus",
-    "name": "Hera",
-    "team": "townsfolk",
-    "ability": "Each night, choose 2 players: if a Minion or Demon chose either of them tonight, you learn one of their alignments.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/herafateofolympus_flip.png?v=1793464898"
-    ],
-    "flavor": "Queen of the gods. She notices everyone who sneaks around the palace.",
-    "firstNight": 12,
-    "otherNight": 13,
-    "firstNightReminder": "The Hera chooses 2 players. If a Minion or Demon chose either tonight, show a thumbs up or down for one of them.",
-    "otherNightReminder": "The Hera chooses 2 players. If a Minion or Demon chose either tonight, show a thumbs up or down for one of them.",
-    "reminders": [
-      "Seen",
-      "Seen"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "apollofateofolympus",
-    "name": "Apollo",
-    "team": "townsfolk",
-    "ability": "Each night, choose 2 players: one of them gets true information tonight, if they get any.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus.png?v=1793464897",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/apollofateofolympus_flip.png?v=1793464898"
-    ],
-    "flavor": "His oracle has never lied, only been misread.",
-    "firstNight": 7,
-    "otherNight": 4,
-    "firstNightReminder": "The Apollo chooses 2 players. Mark one of them PURIFIED: their information tonight is true.",
-    "otherNightReminder": "The Apollo chooses 2 players. Mark one of them PURIFIED: their information tonight is true.",
-    "reminders": [
-      "Purified"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "poseidonfateofolympus",
     "name": "Poseidon",
     "team": "townsfolk",
@@ -256,6 +236,28 @@
     "otherNightReminder": "The Poseidon chooses a player: mark them TSUNAMI.",
     "reminders": [
       "Tsunami"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "athenafateofolympus",
+    "name": "Athena",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, make a public statement about another player's alignment. Tonight, you learn if it was true.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus_flip.png?v=1793464897"
+    ],
+    "flavor": "Wisdom is knowing which accusations to make out loud.",
+    "firstNight": 0,
+    "otherNight": 12,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Athena made a statement today, nod if it was true; shake your head if not.",
+    "reminders": [
+      "No Ability",
+      "True",
+      "False"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -302,23 +304,21 @@
     "setup": false
   },
   {
-    "id": "athenafateofolympus",
-    "name": "Athena",
+    "id": "aphroditefateofolympus",
+    "name": "Aphrodite",
     "team": "townsfolk",
-    "ability": "Once per game, during the day, make a public statement about another player's alignment. Tonight, you learn if it was true.",
+    "ability": "On your 1st night, choose a player (not yourself): they learn who you are. If either of you dies, the other dies too.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/athenafateofolympus_flip.png?v=1793464897"
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/aphroditefateofolympus_flip.png?v=1793464897"
     ],
-    "flavor": "Wisdom is knowing which accusations to make out loud.",
-    "firstNight": 0,
-    "otherNight": 12,
-    "firstNightReminder": "",
-    "otherNightReminder": "If the Athena made a statement today, nod if it was true; shake your head if not.",
+    "flavor": "Love is the one bond even the gods cannot cut.",
+    "firstNight": 9,
+    "otherNight": 0,
+    "firstNightReminder": "The Aphrodite chooses a player: mark them ROSE. Wake that player, show them the Aphrodite token, and point to the Aphrodite.",
+    "otherNightReminder": "",
     "reminders": [
-      "No Ability",
-      "True",
-      "False"
+      "Rose"
     ],
     "remindersGlobal": [],
     "setup": false
@@ -366,24 +366,6 @@
     "setup": false
   },
   {
-    "id": "heliosfateofolympus",
-    "name": "Helios",
-    "team": "outsider",
-    "ability": "If a good player nominates you, they immediately become a Prometheus.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus.png?v=1793464897",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus_flip.png?v=1793464897"
-    ],
-    "flavor": "Fly too close and you'll get burned — or something stranger.",
-    "firstNight": 0,
-    "otherNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "prometheusfateofolympus",
     "name": "Prometheus",
     "team": "outsider",
@@ -419,6 +401,24 @@
     ]
   },
   {
+    "id": "heliosfateofolympus",
+    "name": "Helios",
+    "team": "outsider",
+    "ability": "If a good player nominates you, they immediately become a Prometheus.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus.png?v=1793464897",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/heliosfateofolympus_flip.png?v=1793464897"
+    ],
+    "flavor": "Fly too close and you'll get burned — or something stranger.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
     "id": "phobosfateofolympus",
     "name": "Phobos",
     "team": "minion",
@@ -435,26 +435,6 @@
     "reminders": [
       "Know",
       "Know"
-    ],
-    "remindersGlobal": [],
-    "setup": true
-  },
-  {
-    "id": "erisfateofolympus",
-    "name": "Eris",
-    "team": "minion",
-    "ability": "Each night, choose 2 players: if one is a Prometheus, the other gains the Prometheus ability until dusk. [+1 Prometheus]",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus_flip.png?v=1793464898"
-    ],
-    "flavor": "One golden apple, three goddesses, and a war that lasted ten years.",
-    "firstNight": 6,
-    "otherNight": 3,
-    "firstNightReminder": "The Eris chooses 2 players. If one is a Prometheus, mark the other DISCORD.",
-    "otherNightReminder": "The Eris chooses 2 players. If one is a Prometheus, mark the other DISCORD.",
-    "reminders": [
-      "Discord"
     ],
     "remindersGlobal": [],
     "setup": true
@@ -478,6 +458,26 @@
     ],
     "remindersGlobal": [],
     "setup": false
+  },
+  {
+    "id": "erisfateofolympus",
+    "name": "Eris",
+    "team": "minion",
+    "ability": "Each night, choose 2 players: if one is a Prometheus, the other gains the Prometheus ability until dusk. [+1 Prometheus]",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/erisfateofolympus_flip.png?v=1793464898"
+    ],
+    "flavor": "One golden apple, three goddesses, and a war that lasted ten years.",
+    "firstNight": 6,
+    "otherNight": 3,
+    "firstNightReminder": "The Eris chooses 2 players. If one is a Prometheus, mark the other DISCORD.",
+    "otherNightReminder": "The Eris chooses 2 players. If one is a Prometheus, mark the other DISCORD.",
+    "reminders": [
+      "Discord"
+    ],
+    "remindersGlobal": [],
+    "setup": true
   },
   {
     "id": "nemesisfateofolympus",
@@ -547,27 +547,6 @@
     "setup": true
   },
   {
-    "id": "kronosfateofolympus",
-    "name": "Kronos",
-    "team": "demon",
-    "ability": "Each night*, choose a player: you learn their character, then they die. Once per game, after learning, you may choose a different player to die instead.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus.png?v=1793464898",
-      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus_flip.png?v=1793464898"
-    ],
-    "flavor": "He devoured his own children rather than be replaced.",
-    "firstNight": 0,
-    "otherNight": 8,
-    "firstNightReminder": "",
-    "otherNightReminder": "The Kronos chooses a player: show their character token. Once per game, the Kronos may then choose a different player. The final choice dies.",
-    "reminders": [
-      "Dead",
-      "No Ability"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "hadesfateofolympus",
     "name": "Hades",
     "team": "demon",
@@ -587,6 +566,27 @@
     "remindersGlobal": [
       "Is the Hades"
     ],
+    "setup": false
+  },
+  {
+    "id": "kronosfateofolympus",
+    "name": "Kronos",
+    "team": "demon",
+    "ability": "Each night*, choose a player: you learn their character, then they die. Once per game, after learning, you may choose a different player to die instead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus.png?v=1793464898",
+      "https://chasedcampus.github.io/botc-scripts/i/fate-of-olympus/kronosfateofolympus_flip.png?v=1793464898"
+    ],
+    "flavor": "He devoured his own children rather than be replaced.",
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Kronos chooses a player: show their character token. Once per game, the Kronos may then choose a different player. The final choice dies.",
+    "reminders": [
+      "Dead",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
     "setup": false
   }
 ]
