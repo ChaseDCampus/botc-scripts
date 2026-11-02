@@ -42,6 +42,24 @@
     ]
   },
   {
+    "id": "doctorstrangeavengerslie",
+    "name": "Doctor Strange",
+    "team": "townsfolk",
+    "ability": "You start knowing which Demon is in play, and 1 Minion that is not.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie.png?v=1793575451",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie_flip.png?v=1793575451"
+    ],
+    "flavor": "He has watched this end millions of ways. He's only telling you two things.",
+    "firstNight": 7,
+    "otherNight": 0,
+    "firstNightReminder": "Show Doctor Strange the Demon token in play, then a Minion token that is not in play.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
     "id": "captainamericaavengerslie",
     "name": "Captain America",
     "team": "townsfolk",
@@ -62,22 +80,20 @@
     "setup": false
   },
   {
-    "id": "ironmanavengerslie",
-    "name": "Iron Man",
+    "id": "visionavengerslie",
+    "name": "Vision",
     "team": "townsfolk",
-    "ability": "Once per game, during the day, if 5 or fewer players are alive, publicly choose a player: they die, and so do you.",
+    "ability": "Each night, you learn a player who is not the Demon.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie_flip.png?v=1793575451"
     ],
-    "flavor": "He ran the numbers. There was only ever one way this ended.",
-    "firstNight": 0,
-    "otherNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [
-      "No ability"
-    ],
+    "flavor": "Patient, precise, and crossing names off a very short list.",
+    "firstNight": 8,
+    "otherNight": 19,
+    "firstNightReminder": "Point to a player who is not the Demon.",
+    "otherNightReminder": "Point to a player who is not the Demon.",
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false
   },
@@ -106,26 +122,6 @@
     ]
   },
   {
-    "id": "thoravengerslie",
-    "name": "Thor",
-    "team": "townsfolk",
-    "ability": "Each day, you may publicly offer a living player your hammer. Tonight, you learn if they are good.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie_flip.png?v=1793575450"
-    ],
-    "flavor": "Everyone thinks they could lift it. Very few should try.",
-    "firstNight": 0,
-    "otherNight": 17,
-    "firstNightReminder": "",
-    "otherNightReminder": "If Thor offered a player the hammer today, thumbs up if that player is good, thumbs down if not.",
-    "reminders": [
-      "Offered"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "blackpantheravengerslie",
     "name": "Black Panther",
     "team": "townsfolk",
@@ -140,26 +136,6 @@
     "firstNightReminder": "",
     "otherNightReminder": "Black Panther chooses a dead player: show their character token.",
     "reminders": [],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "wiccanavengerslie",
-    "name": "Wiccan",
-    "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they return to life, and you die.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie_flip.png?v=1793575450"
-    ],
-    "flavor": "Every spell has a price. This one is paid in full.",
-    "firstNight": 0,
-    "otherNight": 4,
-    "firstNightReminder": "",
-    "otherNightReminder": "Wiccan may choose a dead player. If they are a Townsfolk, they return to life and Wiccan dies. Either way, mark Wiccan NO ABILITY.",
-    "reminders": [
-      "No ability"
-    ],
     "remindersGlobal": [],
     "setup": false
   },
@@ -182,19 +158,39 @@
     "setup": false
   },
   {
-    "id": "doctorstrangeavengerslie",
-    "name": "Doctor Strange",
+    "id": "shangchiavengerslie",
+    "name": "Shang-Chi",
     "team": "townsfolk",
-    "ability": "You start knowing which Demon is in play, and 1 Minion that is not.",
+    "ability": "Each night*, choose a player: if they are a Minion, they have no ability until dusk tomorrow.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie.png?v=1793575451",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/doctorstrangeavengerslie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "He has watched this end millions of ways. He's only telling you two things.",
-    "firstNight": 7,
-    "otherNight": 0,
-    "firstNightReminder": "Show Doctor Strange the Demon token in play, then a Minion token that is not in play.",
-    "otherNightReminder": "",
+    "flavor": "Ten rings, and every one of them finds what it is looking for.",
+    "firstNight": 0,
+    "otherNight": 1,
+    "firstNightReminder": "",
+    "otherNightReminder": "Shang-Chi chooses a player: if they are a Minion, mark them BOUND. They have no ability until dusk tomorrow.",
+    "reminders": [
+      "Bound"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "misterfantasticavengerslie",
+    "name": "Mister Fantastic",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: you learn how many seats they are from the nearest evil player.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie_flip.png?v=1793575451"
+    ],
+    "flavor": "He has measured the distance, and he has also stretched to check.",
+    "firstNight": 0,
+    "otherNight": 18,
+    "firstNightReminder": "",
+    "otherNightReminder": "Mister Fantastic chooses a player: show how many seats they are from the nearest evil player, counting the shorter way. Show 0 if they are evil.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false
@@ -220,38 +216,62 @@
     "setup": false
   },
   {
-    "id": "visionavengerslie",
-    "name": "Vision",
+    "id": "thoravengerslie",
+    "name": "Thor",
     "team": "townsfolk",
-    "ability": "Each night, you learn a player who is not the Demon.",
+    "ability": "Each day, you may publicly offer a living player your hammer. Tonight, you learn if they are good.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/visionavengerslie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thoravengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "Patient, precise, and crossing names off a very short list.",
-    "firstNight": 8,
-    "otherNight": 19,
-    "firstNightReminder": "Point to a player who is not the Demon.",
-    "otherNightReminder": "Point to a player who is not the Demon.",
-    "reminders": [],
+    "flavor": "Everyone thinks they could lift it. Very few should try.",
+    "firstNight": 0,
+    "otherNight": 17,
+    "firstNightReminder": "",
+    "otherNightReminder": "If Thor offered a player the hammer today, thumbs up if that player is good, thumbs down if not.",
+    "reminders": [
+      "Offered"
+    ],
     "remindersGlobal": [],
     "setup": false
   },
   {
-    "id": "misterfantasticavengerslie",
-    "name": "Mister Fantastic",
+    "id": "wiccanavengerslie",
+    "name": "Wiccan",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: you learn how many seats they are from the nearest evil player.",
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they return to life, and you die.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/misterfantasticavengerslie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/wiccanavengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "He has measured the distance, and he has also stretched to check.",
+    "flavor": "Every spell has a price. This one is paid in full.",
     "firstNight": 0,
-    "otherNight": 18,
+    "otherNight": 4,
     "firstNightReminder": "",
-    "otherNightReminder": "Mister Fantastic chooses a player: show how many seats they are from the nearest evil player, counting the shorter way. Show 0 if they are evil.",
-    "reminders": [],
+    "otherNightReminder": "Wiccan may choose a dead player. If they are a Townsfolk, they return to life and Wiccan dies. Either way, mark Wiccan NO ABILITY.",
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "ironmanavengerslie",
+    "name": "Iron Man",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, if 5 or fewer players are alive, publicly choose a player: they die, and so do you.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ironmanavengerslie_flip.png?v=1793575451"
+    ],
+    "flavor": "He ran the numbers. There was only ever one way this ended.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
     "remindersGlobal": [],
     "setup": false
   },
@@ -277,39 +297,19 @@
     "setup": false
   },
   {
-    "id": "shangchiavengerslie",
-    "name": "Shang-Chi",
-    "team": "townsfolk",
-    "ability": "Each night*, choose a player: if they are a Minion, they have no ability until dusk tomorrow.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/shangchiavengerslie_flip.png?v=1793575450"
-    ],
-    "flavor": "Ten rings, and every one of them finds what it is looking for.",
-    "firstNight": 0,
-    "otherNight": 1,
-    "firstNightReminder": "",
-    "otherNightReminder": "Shang-Chi chooses a player: if they are a Minion, mark them BOUND. They have no ability until dusk tomorrow.",
-    "reminders": [
-      "Bound"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
-    "id": "deadpoolavengerslie",
-    "name": "Deadpool",
+    "id": "punisheravengerslie",
+    "name": "Punisher",
     "team": "outsider",
-    "ability": "You cannot die. If you would, a living neighbour dies instead.",
+    "ability": "On night 2, you must choose a player: they die. If they are good, you die too.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "He is thrilled to be here. His neighbours have some concerns.",
+    "flavor": "He doesn't do trials, and he doesn't do second opinions.",
     "firstNight": 0,
-    "otherNight": 0,
+    "otherNight": 7,
     "firstNightReminder": "",
-    "otherNightReminder": "",
+    "otherNightReminder": "On night 2, the Punisher chooses a player: they die. If that player is good, the Punisher dies too.",
     "reminders": [
       "Dead"
     ],
@@ -349,26 +349,6 @@
     ]
   },
   {
-    "id": "punisheravengerslie",
-    "name": "Punisher",
-    "team": "outsider",
-    "ability": "On night 2, you must choose a player: they die. If they are good, you die too.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/punisheravengerslie_flip.png?v=1793575450"
-    ],
-    "flavor": "He doesn't do trials, and he doesn't do second opinions.",
-    "firstNight": 0,
-    "otherNight": 7,
-    "firstNightReminder": "",
-    "otherNightReminder": "On night 2, the Punisher chooses a player: they die. If that player is good, the Punisher dies too.",
-    "reminders": [
-      "Dead"
-    ],
-    "remindersGlobal": [],
-    "setup": false
-  },
-  {
     "id": "daredevilavengerslie",
     "name": "Daredevil",
     "team": "outsider",
@@ -383,6 +363,26 @@
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "deadpoolavengerslie",
+    "name": "Deadpool",
+    "team": "outsider",
+    "ability": "You cannot die. If you would, a living neighbour dies instead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/deadpoolavengerslie_flip.png?v=1793575450"
+    ],
+    "flavor": "He is thrilled to be here. His neighbours have some concerns.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Dead"
+    ],
     "remindersGlobal": [],
     "setup": false
   },
@@ -405,32 +405,6 @@
     ],
     "remindersGlobal": [],
     "setup": false
-  },
-  {
-    "id": "ultronavengerslie",
-    "name": "Ultron",
-    "team": "minion",
-    "ability": "The first time an Ultron dies, choose a living good player: they turn evil and become Ultron.",
-    "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie_flip.png?v=1793575450"
-    ],
-    "flavor": "Shut one down and there's another one already online.",
-    "firstNight": 0,
-    "otherNight": 13,
-    "firstNightReminder": "",
-    "otherNightReminder": "If an Ultron died for the first time since last dawn, wake them: they choose a living good player, who turns evil and becomes Ultron. Show that player the token and the evil team.",
-    "reminders": [
-      "Uploaded"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
-    ]
   },
   {
     "id": "venomavengerslie",
@@ -476,25 +450,51 @@
     "setup": false
   },
   {
-    "id": "thanosavengerslie",
-    "name": "Thanos",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Once per game, instead, half of all living players die, chosen at random. You might be one of them. [-1 Outsider]",
+    "id": "ultronavengerslie",
+    "name": "Ultron",
+    "team": "minion",
+    "ability": "The first time an Ultron dies, choose a living good player: they turn evil and become Ultron.",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie_flip.png?v=1793575450"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/ultronavengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "Perfectly fair, he says, and he has never once checked the odds.",
+    "flavor": "Shut one down and there's another one already online.",
     "firstNight": 0,
-    "otherNight": 8,
+    "otherNight": 13,
     "firstNightReminder": "",
-    "otherNightReminder": "Thanos chooses a player: they die. Or, once per game, Thanos snaps: half of all living players die, rounded down, chosen at random, Thanos included.",
+    "otherNightReminder": "If an Ultron died for the first time since last dawn, wake them: they choose a living good player, who turns evil and becomes Ultron. Show that player the token and the evil team.",
     "reminders": [
-      "Dead",
-      "Snapped"
+      "Uploaded"
     ],
     "remindersGlobal": [],
-    "setup": true
+    "setup": false,
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "galactusavengerslie",
+    "name": "Galactus",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If nobody was executed today, choose 2 players instead.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie_flip.png?v=1793575451"
+    ],
+    "flavor": "It isn't personal. It's lunch.",
+    "firstNight": 0,
+    "otherNight": 10,
+    "firstNightReminder": "",
+    "otherNightReminder": "Galactus chooses a player: they die. If nobody was executed today, Galactus chooses 2 players.",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
   },
   {
     "id": "kangtheconqueroravengerslie",
@@ -517,25 +517,25 @@
     "setup": true
   },
   {
-    "id": "galactusavengerslie",
-    "name": "Galactus",
+    "id": "thanosavengerslie",
+    "name": "Thanos",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If nobody was executed today, choose 2 players instead.",
+    "ability": "Each night*, choose a player: they die. Once per game, instead, half of all living players die, chosen at random. You might be one of them. [-1 Outsider]",
     "image": [
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie.png?v=1793575450",
-      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/galactusavengerslie_flip.png?v=1793575451"
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie.png?v=1793575450",
+      "https://chasedcampus.github.io/botc-scripts/i/avengers-lie/thanosavengerslie_flip.png?v=1793575450"
     ],
-    "flavor": "It isn't personal. It's lunch.",
+    "flavor": "Perfectly fair, he says, and he has never once checked the odds.",
     "firstNight": 0,
-    "otherNight": 10,
+    "otherNight": 8,
     "firstNightReminder": "",
-    "otherNightReminder": "Galactus chooses a player: they die. If nobody was executed today, Galactus chooses 2 players.",
+    "otherNightReminder": "Thanos chooses a player: they die. Or, once per game, Thanos snaps: half of all living players die, rounded down, chosen at random, Thanos included.",
     "reminders": [
       "Dead",
-      "Dead"
+      "Snapped"
     ],
     "remindersGlobal": [],
-    "setup": false
+    "setup": true
   },
   {
     "id": "doctordoomavengerslie",
