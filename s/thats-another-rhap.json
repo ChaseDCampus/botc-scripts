@@ -1,0 +1,658 @@
+[
+  {
+    "id": "_meta",
+    "name": "That's Another RHAP",
+    "author": "chäse",
+    "almanac": "https://www.bloodstar.xyz/p/chase2013/ThatIsARHAP/almanac.html",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "deanthatisarhap",
+      "rainseyyythatisarhap",
+      "joshthatisarhap",
+      "hufflepuffthatisarhap",
+      "raythatisarhap",
+      "brittanythatisarhap",
+      "christhatisarhap",
+      "joeythatisarhap",
+      "perzothatisarhap",
+      "trinathatisarhap",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "collsthatisarhap",
+      "deanthatisarhap",
+      "adamthatisarhap",
+      "billiebonkathatisarhap",
+      "tomthatisarhap",
+      "shanethatisarhap",
+      "jenthatisarhap",
+      "madelinethatisarhap",
+      "ryanthatisarhap",
+      "rainseyyythatisarhap",
+      "noahthatisarhap",
+      "gabbythatisarhap",
+      "joshthatisarhap",
+      "christhatisarhap",
+      "jgthatisarhap",
+      "perzothatisarhap",
+      "alecthatisarhap",
+      "lexthatisarhap",
+      "darraghthatisarhap",
+      "trinathatisarhap",
+      "dawn"
+    ]
+  },
+  {
+    "id": "hufflepuffthatisarhap",
+    "name": "Hufflepuff",
+    "team": "townsfolk",
+    "ability": "You start knowing if the Demon's ability depends on voting.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/hufflepuffthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/hufflepuffthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 6,
+    "otherNight": 0,
+    "firstNightReminder": "Nod if the in-play Demon's ability depends on votes (here: Shane or Jen); shake your head if not.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "raythatisarhap",
+    "name": "Ray",
+    "team": "townsfolk",
+    "ability": "You start knowing how many voting-related abilities are in play.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/raythatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/raythatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 7,
+    "otherNight": 0,
+    "firstNightReminder": "Give a finger signal.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "joshthatisarhap",
+    "name": "Josh",
+    "team": "townsfolk",
+    "ability": "You start knowing 2 players. If both are dead, that night you learn their characters.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/joshthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/joshthatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 5,
+    "otherNight": 13,
+    "firstNightReminder": "Point to 2 players: mark them KNOW.",
+    "otherNightReminder": "If both KNOW players are dead and the Josh hasn't learned yet, show both character tokens.",
+    "reminders": [
+      "Know",
+      "Know"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "brittanythatisarhap",
+    "name": "Brittany",
+    "team": "townsfolk",
+    "ability": "You start knowing how many in-play characters have wheels on their token (not yourself).",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/brittanythatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/brittanythatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 8,
+    "otherNight": 0,
+    "firstNightReminder": "Give a finger signal. Wheeled tokens: Addie (wagon), LewLew (prize wheel), Colls (pull-along phone), Lex (pull-along dino).",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "christhatisarhap",
+    "name": "Chris",
+    "team": "townsfolk",
+    "ability": "Each night, you learn if the next pair of players (going clockwise from a seat the Storyteller picks) share a character type.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/christhatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/christhatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 9,
+    "otherNight": 14,
+    "firstNightReminder": "Pick a starting seat. Nod if that seat and the next clockwise share a character type; mark them PAIR.",
+    "otherNightReminder": "Move PAIR to the next 2 players clockwise. Nod if they share a character type.",
+    "reminders": [
+      "Pair",
+      "Pair"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "jgthatisarhap",
+    "name": "JG",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many players woke tonight to use their own ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/jgthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/jgthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 15,
+    "firstNightReminder": "",
+    "otherNightReminder": "Give a finger signal.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "adamthatisarhap",
+    "name": "Adam",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: they can't change character or alignment until dusk.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/adamthatisarhap.png?v=1793855858",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/adamthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 3,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Adam chooses a player: mark them PROTECTED.",
+    "reminders": [
+      "Protected"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "billiebonkathatisarhap",
+    "name": "Billie Bonka",
+    "team": "townsfolk",
+    "ability": "Each night*, choose an alive player and a Minion character: if they are that character, you swap characters.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/billiebonkathatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/billiebonkathatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 4,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Billie Bonka chooses a player and a Minion character. If correct, swap their tokens and wake both to show them.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "noahthatisarhap",
+    "name": "Noah",
+    "team": "townsfolk",
+    "ability": "Each day, you may publicly choose a seat number. Tonight, if a non-Townsfolk sits there, a player of the Storyteller's choice dies.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/noahthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/noahthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 11,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Noah's seat held a non-Townsfolk, choose a player: they die.",
+    "reminders": [
+      "Seat",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "alecthatisarhap",
+    "name": "Alec",
+    "team": "townsfolk",
+    "ability": "Each day, publicly say a player's name. That night, you learn how many letters it shares with the names of the in-play evil characters.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/alecthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/alecthatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 17,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Alec named a player today, give a finger signal.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "perzothatisarhap",
+    "name": "Perzo",
+    "team": "townsfolk",
+    "ability": "You have a secret connection (a player chosen by the Storyteller). Each night*, learn if they nominated today. Once per game, during the day, guess who they are: if correct, that night learn the evil characters in play.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/perzothatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/perzothatisarhap_flip.png?v=1793855858"
+    ],
+    "firstNight": 11,
+    "otherNight": 16,
+    "firstNightReminder": "Mark a player (not the Perzo) CONNECTION.",
+    "otherNightReminder": "Nod if the CONNECTION nominated today. If the Perzo guessed correctly today, show every in-play evil character token.",
+    "reminders": [
+      "Connection",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "gabbythatisarhap",
+    "name": "Gabby",
+    "team": "townsfolk",
+    "ability": "If you die at night, you learn 3 in-play characters.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/gabbythatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/gabbythatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 12,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Gabby died tonight, wake them and show 3 in-play character tokens.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "drewthatisarhap",
+    "name": "Drew",
+    "team": "townsfolk",
+    "ability": "If you are mad that a player is a certain character, when you die they become that character (unless they are the Demon).",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/drewthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/drewthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Mad"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "joeythatisarhap",
+    "name": "Joey",
+    "team": "outsider",
+    "ability": "You start knowing 2 true statements. If any player says one aloud, all Townsfolk are drunk tonight.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/joeythatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/joeythatisarhap_flip.png?v=1793855858"
+    ],
+    "firstNight": 10,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Joey 2 true statements about the game (write them down).",
+    "otherNightReminder": "",
+    "reminders": [
+      "Said",
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "rainseyyythatisarhap",
+    "name": "Rainseyyy",
+    "team": "outsider",
+    "ability": "Each night, choose a player: if an evil player chose them tonight, another player might die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/rainseyyythatisarhap.png?v=1793855858",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/rainseyyythatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 4,
+    "otherNight": 10,
+    "firstNightReminder": "The Rainseyyy chooses a player. If an evil player chose them tonight, you may kill another player.",
+    "otherNightReminder": "The Rainseyyy chooses a player. If an evil player chose them tonight, you may kill another player.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "lewlewthatisarhap",
+    "name": "LewLew",
+    "team": "outsider",
+    "ability": "You think you are a Townsfolk, but you are not. Each day, the first nomination is random: the Storyteller picks the nominee. When just 3 players live, you lose this ability.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/lewlewthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/lewlewthatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the LewLew"
+    ],
+    "setup": false,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "nickthatisarhap",
+    "name": "Nick",
+    "team": "outsider",
+    "ability": "You become the alignment of the most recently executed player (you don't learn which).",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/nickthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/nickthatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Good",
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "deanthatisarhap",
+    "name": "Dean",
+    "team": "minion",
+    "ability": "Each night, choose a player: their ability doesn't work until dusk.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/deanthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/deanthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 3,
+    "otherNight": 2,
+    "firstNightReminder": "The Dean chooses a player: mark them OFF.",
+    "otherNightReminder": "The Dean chooses a player: mark them OFF.",
+    "reminders": [
+      "Off"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "tomthatisarhap",
+    "name": "Tom",
+    "team": "minion",
+    "ability": "Once per game, at night*, choose a Demon character: tonight you have its ability and the Demon is poisoned.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/tomthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/tomthatisarhap_flip.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 5,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Tom may choose a Demon character. If so, mark the Demon POISONED; the Tom acts with that ability when the Demon would.",
+    "reminders": [
+      "Poisoned",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "addiethatisarhap",
+    "name": "Addie",
+    "team": "minion",
+    "ability": "If you are nominated and the nominator votes, they die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/addiethatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/addiethatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "distonthatisarhap",
+    "name": "Diston",
+    "team": "minion",
+    "ability": "If there are 5 or more players alive (Travellers don't count) and an evil character dies, you become that evil character.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/distonthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/distonthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Became"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "jenthatisarhap",
+    "name": "Jen :)",
+    "team": "demon",
+    "ability": "Each night*, choose a player you voted on today: they die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/jenthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/jenthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 7,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Jen chooses a player they voted on today: that player dies.",
+    "reminders": [
+      "Voted",
+      "Voted",
+      "Voted",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "shanethatisarhap",
+    "name": "Shane",
+    "team": "demon",
+    "ability": "Each night*, choose 2 players: tomorrow, the first of them to vote dies. If neither votes, one of them dies at dusk.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/shanethatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/shanethatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 6,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Shane chooses 2 players: mark them TARGET.",
+    "reminders": [
+      "Target",
+      "Target",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "madelinethatisarhap",
+    "name": "Madeline",
+    "team": "demon",
+    "ability": "Each night*, choose a player to live or die. If they live, they lose their ability. If they die, every player who has lost their ability dies.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/madelinethatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/madelinethatisarhap_flip.png?v=1793855858"
+    ],
+    "firstNight": 0,
+    "otherNight": 8,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Madeline chooses a player and live or die. Live: mark them NO ABILITY. Die: they die, and so does every NO ABILITY player.",
+    "reminders": [
+      "No Ability",
+      "No Ability",
+      "No Ability",
+      "No Ability",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "ryanthatisarhap",
+    "name": "Ryan",
+    "team": "demon",
+    "ability": "You think you are a good character, but you are not. The Minions know who you are. Each night*, the Minions choose a player: they die.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/ryanthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/ryanthatisarhap_flip.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 9,
+    "firstNightReminder": "",
+    "otherNightReminder": "Wake the Minions together: they choose a player, who dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Is the Ryan"
+    ],
+    "setup": false,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "collsthatisarhap",
+    "name": "Colls",
+    "team": "traveller",
+    "ability": "Each night*, choose a player: if they agree, you may speak with them privately for a few moments.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/collsthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/collsthatisarhap_good.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/collsthatisarhap_evil.png?v=1793855856"
+    ],
+    "firstNight": 0,
+    "otherNight": 1,
+    "firstNightReminder": "",
+    "otherNightReminder": "The Colls chooses a player. If they agree, let them talk privately for a moment.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "lexthatisarhap",
+    "name": "Lex",
+    "team": "traveller",
+    "ability": "Each day, publicly name a player: if they are executed, you learn their character that night.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/lexthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/lexthatisarhap_good.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/lexthatisarhap_evil.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 18,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Lex's named player was executed today, show their character token.",
+    "reminders": [
+      "Named"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "darraghthatisarhap",
+    "name": "Darragh",
+    "team": "traveller",
+    "ability": "Each day, you may swap seats with a player and publicly make a statement about them. Tonight, learn if your statement was true.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/darraghthatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/darraghthatisarhap_good.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/darraghthatisarhap_evil.png?v=1793855857"
+    ],
+    "firstNight": 0,
+    "otherNight": 19,
+    "firstNightReminder": "",
+    "otherNightReminder": "If the Darragh made a statement today, nod if it was true.",
+    "reminders": [
+      "True",
+      "False"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "trinathatisarhap",
+    "name": "Trina",
+    "team": "traveller",
+    "ability": "Once per game, choose a player: they see the Grimoire. If either of you are mad about the demon, your team loses.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/trinathatisarhap.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/trinathatisarhap_good.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/trinathatisarhap_evil.png?v=1793855856"
+    ],
+    "firstNight": 12,
+    "otherNight": 20,
+    "firstNightReminder": "The Trina may choose a player: show them the Grimoire.",
+    "otherNightReminder": "The Trina may choose a player: show them the Grimoire.",
+    "reminders": [
+      "Grim Access",
+      "No Ability"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire"
+      }
+    ]
+  },
+  {
+    "id": "potatojimthatisarhap",
+    "name": "Potato Jim",
+    "team": "traveller",
+    "ability": "Your vote counts as 2.",
+    "image": [
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/potatojimthatisarhap.png?v=1793855857",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/potatojimthatisarhap_good.png?v=1793855856",
+      "https://chasedcampus.github.io/botc-scripts/i/thats-another-rhap/potatojimthatisarhap_evil.png?v=1793855858"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  }
+]
