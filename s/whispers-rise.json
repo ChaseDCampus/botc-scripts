@@ -1,0 +1,47 @@
+[
+  {
+    "id": "_meta",
+    "name": "Whispers Rise After Innocents Turn Haunted",
+    "author": "chäse"
+  },
+  "empath",
+  "chambermaid",
+  "fortuneteller",
+  "dreamer",
+  "undertaker",
+  "innkeeper",
+  "gossip",
+  "seamstress",
+  "fisherman",
+  "slayer",
+  "juggler",
+  "ravenkeeper",
+  "mayor",
+  "lunatic",
+  "drunk",
+  "recluse",
+  "saint",
+  "mezepheles",
+  "poisoner",
+  "wraith",
+  "scarletwoman",
+  "pukka",
+  "nodashii",
+  "imp",
+  "vigormortis",
+  {
+    "id": "unfinishedbusiness",
+    "name": "Unfinished Business",
+    "team": "fabled",
+    "ability": "Something bad might happen to whoever is most responsible for the death of the Wraith.",
+    "flavor": "It isn't done with you. It was never done with you.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "Haunted"
+    ],
+    "remindersGlobal": [],
+    "image": "https://chasedcampus.github.io/botc-scripts/i/whispers-rise/unfinishedbusiness.png?v=1794511539"
+  }
+]
